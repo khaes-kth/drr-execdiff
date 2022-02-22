@@ -234,6 +234,7 @@ public class AdamsMoultonIntegrator extends AdamsIntegrator {
         // compute the initial Nordsieck vector using the configured starter integrator
         start(t0, y, t);
         interpolator.reinitialize(stepStart, stepSize, scaled, nordsieck);
+        setMaxGrowth(10.0);
         interpolator.storeTime(stepStart);
 
         double hNew = stepSize;
