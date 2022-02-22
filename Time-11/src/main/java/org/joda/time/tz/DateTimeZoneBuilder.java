@@ -1138,7 +1138,7 @@ public class DateTimeZoneBuilder {
          * Returns null if none can be built.
          */
         public DSTZone buildTailZone(String id) {
-            if (iRules.size() == 2) {
+            if (iRules.size() > 2) {
                 Rule startRule = iRules.get(0);
                 Rule endRule = iRules.get(1);
                 if (startRule.getToYear() == Integer.MAX_VALUE &&
