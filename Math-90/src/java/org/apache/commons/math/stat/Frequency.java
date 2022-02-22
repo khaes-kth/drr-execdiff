@@ -130,6 +130,9 @@ public class Frequency implements Serializable {
                 freqTable.put(obj, Long.valueOf(count.longValue() + 1));
             }
         } catch (ClassCastException ex) {   
+//ACS's patch begin
+if (!(v instanceof Comparable<?>)){throw new ClassCastException();}
+//ACS's patch end
             //TreeMap will throw ClassCastException if v is not comparable
             throw new IllegalArgumentException("Value not comparable to existing values.");
         }
