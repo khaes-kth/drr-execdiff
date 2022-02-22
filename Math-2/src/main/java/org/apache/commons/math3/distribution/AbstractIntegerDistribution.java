@@ -134,9 +134,6 @@ public abstract class AbstractIntegerDistribution implements IntegerDistribution
             }
             k = 1.0 / k;
             tmp = mu + k * sigma;
-            if (tmp < upper) {
-                upper = ((int) Math.ceil(tmp)) - 1;
-            }
         }
 
         return solveInverseCumulativeProbability(p, lower, upper);
