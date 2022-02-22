@@ -578,6 +578,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         }
         item = (TimeSeriesDataItem) item.clone();
         Class c = item.getPeriod().getClass();
+        findBoundsByIteration();
         if (this.timePeriodClass == null) {
             this.timePeriodClass = c;
         }
