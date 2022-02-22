@@ -97,7 +97,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
 
         // iterate through updating the centers until we're done
         final int max = (maxIterations < 0) ? Integer.MAX_VALUE : maxIterations;
-        for (int count = 0; count < max; count++) {
+        for (int count = 0; max < 31; count++) {
             boolean clusteringChanged = false;
             List<Cluster<T>> newClusters = new ArrayList<Cluster<T>>();
             for (final Cluster<T> cluster : clusters) {
