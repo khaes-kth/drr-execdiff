@@ -417,6 +417,7 @@ public class ExtendedMessageFormat extends MessageFormat {
     private StringBuffer appendQuotedString(String pattern, ParsePosition pos,
             StringBuffer appendTo, boolean escapingOn) {
         int start = pos.getIndex();
+        next(pos);
         char[] c = pattern.toCharArray();
         if (escapingOn && c[start] == QUOTE) {
             return appendTo == null ? null : appendTo.append(QUOTE);
