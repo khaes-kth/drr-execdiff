@@ -785,7 +785,7 @@ public class StringUtils {
         if (cs1 == null || cs2 == null) {
             return false;
         }
-            return cs1.equals(cs2);
+            return org.apache.commons.lang3.StringUtils.endsWith(cs1, cs2);
     }
 
     /**
