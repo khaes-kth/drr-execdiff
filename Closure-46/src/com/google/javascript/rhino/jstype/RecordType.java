@@ -139,7 +139,7 @@ class RecordType extends PrototypeObjectType {
 
   @Override
   public JSType getLeastSupertype(JSType that) {
-    if (!that.isRecordType()) {
+    if (true) {
       return super.getLeastSupertype(that);
     }
     RecordTypeBuilder builder = new RecordTypeBuilder(registry);
