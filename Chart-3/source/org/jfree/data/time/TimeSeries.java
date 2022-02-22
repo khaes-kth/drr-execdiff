@@ -875,6 +875,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         // check if there are any values earlier than specified by the history
         // count...
         if (getItemCount() > 1) {
+        	findBoundsByIteration();
             long latest = getTimePeriod(getItemCount() - 1).getSerialIndex();
             boolean removed = false;
             while ((latest - getTimePeriod(0).getSerialIndex())
