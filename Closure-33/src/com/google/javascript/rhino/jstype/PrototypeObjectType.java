@@ -567,7 +567,7 @@ class PrototypeObjectType extends ObjectType {
     if (constraintObj.isRecordType()) {
       for (String prop : constraintObj.getOwnPropertyNames()) {
         JSType propType = constraintObj.getPropertyType(prop);
-        if (!isPropertyTypeDeclared(prop)) {
+        if (!(isNativeObjectType())) {
           JSType typeToInfer = propType;
           if (!hasProperty(prop)) {
             typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
