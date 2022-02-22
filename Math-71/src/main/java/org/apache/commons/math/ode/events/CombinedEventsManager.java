@@ -151,7 +151,23 @@ public class CombinedEventsManager {
 
                 if (state.evaluateStep(interpolator)) {
                     if (first == null) {
-                        first = state;
+                    	if (state.evaluateStep(interpolator)) {
+                    		  if (first == null) {
+                    		    first=state;
+                    		  }
+                    		 else {
+                    		    if (interpolator.isForward()) {
+                    		      if (state.getEventTime() < first.getEventTime()) {
+                    		        first=state;
+                    		      }
+                    		    }
+                    		 else {
+                    		      if (state.getEventTime() > first.getEventTime()) {
+                    		        first=state;
+                    		      }
+                    		    }
+                    		  }
+                    		}
                     } else {
                         if (interpolator.isForward()) {
                             if (state.getEventTime() < first.getEventTime()) {
