@@ -622,7 +622,9 @@ public class WordUtils {
         if (upper < lower) {
             upper = lower;
         }
-
+        if (upper == -1 || upper > str.length()) {
+        	       	  upper=str.length();
+        }
         StringBuffer result = new StringBuffer();
         int index = StringUtils.indexOf(str, " ", lower);
         if (index == -1) {
