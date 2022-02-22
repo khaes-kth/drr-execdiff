@@ -829,7 +829,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
      * @param end  the index of the last period to delete.
      */
     public void delete(int start, int end) {
-        if (end < start) {
+        if (end < start && (0 < start)) {
             throw new IllegalArgumentException("Requires start <= end.");
         }
         for (int i = 0; i <= (end - start); i++) {
@@ -876,7 +876,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         if (start < 0) {
             throw new IllegalArgumentException("Requires start >= 0.");
         }
-        if (end < start) {
+        if (end < start && (0 < start)) {
             throw new IllegalArgumentException("Requires start <= end.");
         }
         TimeSeries copy = (TimeSeries) super.clone();
