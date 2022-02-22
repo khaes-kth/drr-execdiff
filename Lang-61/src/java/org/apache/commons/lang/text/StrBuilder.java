@@ -1758,6 +1758,11 @@ public class StrBuilder implements Cloneable {
      * @return the first index of the string, or -1 if not found
      */
     public int indexOf(String str, int startIndex) {
+    	if (buffer.length > length()) {
+    		  char[] old=buffer;
+    		  buffer=new char[length()];
+    		  System.arraycopy(old,0,buffer,0,size);
+    		}
         startIndex = (startIndex < 0 ? 0 : startIndex);
         if (str == null || startIndex >= size) {
             return -1;
@@ -1769,9 +1774,7 @@ public class StrBuilder implements Cloneable {
         if (strLen == 0) {
             return startIndex;
         }
-        if (strLen > size) {
-            return -1;
-        }
+        ensureCapacity(size + 4);
         char[] thisBuf = buffer;
         int len = thisBuf.length - strLen;
         outer:
