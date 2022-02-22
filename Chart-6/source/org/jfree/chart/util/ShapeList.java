@@ -78,7 +78,7 @@ public class ShapeList extends AbstractObjectList {
      * @param shape  the {@link Shape}.
      */
     public void setShape(int index, Shape shape) {
-        set(index, shape);
+        super.set(org.jfree.chart.util.AbstractObjectList.DEFAULT_INITIAL_CAPACITY, shape);
     }
 
     /**
