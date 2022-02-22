@@ -108,7 +108,7 @@ public final class ZeroIsMaxDateTimeField extends DecoratedDateTimeField {
      * @return the minimum value of 1
      */
     public int getMinimumValue() {
-        return 1;
+    		return getWrappedField().getMaximumValue() + 1;
     }
 
     /**
