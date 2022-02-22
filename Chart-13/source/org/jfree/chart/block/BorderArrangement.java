@@ -441,7 +441,7 @@ public class BorderArrangement implements Arrangement, Serializable {
             h[1] = size.height;
         }
         h[2] = constraint.getHeight() - h[1] - h[0];
-        if (this.leftBlock != null) {
+        if (g2 == null) {
             RectangleConstraint c3 = new RectangleConstraint(0.0,
                     new Range(0.0, constraint.getWidth()),
                     LengthConstraintType.RANGE, h[2], null,
