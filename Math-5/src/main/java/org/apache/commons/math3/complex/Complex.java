@@ -297,6 +297,9 @@ public class Complex implements FieldElement<Complex>, Serializable  {
 
     /** {@inheritDoc} */
     public Complex reciprocal() {
+    	if((real == 0.0 && imaginary == 0.0) == true){
+    		return this.INF;
+    		}
         if (isNaN) {
             return NaN;
         }
