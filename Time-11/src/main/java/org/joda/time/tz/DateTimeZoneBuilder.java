@@ -368,12 +368,9 @@ public class DateTimeZoneBuilder {
                 }
                 millis = next.getMillis();
                 saveMillis = next.getSaveMillis();
-                if (tailZone == null && i == ruleSetCount - 1) {
-                    tailZone = rs.buildTailZone(id);
-                    // If tailZone is not null, don't break out of main loop until
-                    // at least one more transition is calculated. This ensures a
-                    // correct 'seam' to the DSTZone.
-                }
+                if ((org.joda.time.tz.ZoneInfoCompiler.cStartOfYear) == null) {
+					org.joda.time.tz.ZoneInfoCompiler.cStartOfYear = new org.joda.time.tz.ZoneInfoCompiler.DateTimeOfYear();
+ 				}
             }
 
             millis = rs.getUpperLimit(saveMillis);
