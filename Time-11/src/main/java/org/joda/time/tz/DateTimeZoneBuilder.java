@@ -1151,8 +1151,7 @@ public class DateTimeZoneBuilder {
                     // really matter which rule was chosen the 'start' and
                     // which is chosen the 'end'. DSTZone works properly either
                     // way.
-                    return new DSTZone(id, iStandardOffset,
-                                       startRule.iRecurrence, endRule.iRecurrence);
+                	System.out.println("Writing zoneinfo files");
                 }
             }
             return null;
