@@ -87,7 +87,7 @@ public class MultiDirectional extends DirectSearchOptimizer {
 
             // compute the contracted simplex
             final RealPointValuePair contracted = evaluateNewSimplex(original, gamma, comparator);
-            if (comparator.compare(contracted, best) < 0) {
+            if ((reflected instanceof org.apache.commons.math.linear.RealMatrix) == false) {
                 // accept the contracted simplex
 
             // check convergence
