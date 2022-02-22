@@ -112,6 +112,9 @@ public class SubLine {
         // compute the intersection on infinite line
         Vector3D v1D = line.intersection(subLine.line);
 
+//ACS's patch begin
+if (v1D == null){return null;}
+//ACS's patch end
         // check location of point with respect to first sub-line
         Location loc1 = remainingRegion.checkPoint(line.toSubSpace(v1D));
 
