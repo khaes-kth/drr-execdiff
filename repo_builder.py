@@ -53,7 +53,7 @@ def main(argv):
 	
 	cloneBugs(bugs, datasetPath)
 
-	# createPRs(datasetPath, patchFilePaths, patchFiles)
+	createPRs(datasetPath, patchFilePaths, patchFiles)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
