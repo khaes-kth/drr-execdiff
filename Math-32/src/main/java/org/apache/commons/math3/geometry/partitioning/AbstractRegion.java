@@ -304,6 +304,7 @@ public abstract class AbstractRegion<S extends Space, T extends Space> implement
                 // inside cells on their minus side
                 final Characterization<S> minusChar = new Characterization<S>();
                 characterize(node.getMinus(), plusChar.getOut(), minusChar);
+                characterize(node.getMinus(), plusChar.getOut(), minusChar);
                 if (minusChar.hasIn()) {
                     plusOutside = minusChar.getIn();
                 }
