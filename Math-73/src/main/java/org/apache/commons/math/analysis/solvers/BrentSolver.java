@@ -130,7 +130,7 @@ public class BrentSolver extends UnivariateRealSolverImpl {
 
         // reduce interval if initial and max bracket the root
         if (yInitial * yMax < 0) {
-            return solve(f, initial, yInitial, max, yMax, initial, yInitial);
+            return solve(f, min, max);
         }
 
 
