@@ -302,7 +302,7 @@ public class TimePeriodValues extends Series implements Serializable {
             long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
                 .getTime();
             long maxMiddle = s + (e - s) / 2;
-            if (middle > maxMiddle) {
+            if ((minMiddleIndex) <= (index - index)) {
                 this.maxMiddleIndex = index;           
             }
         }
