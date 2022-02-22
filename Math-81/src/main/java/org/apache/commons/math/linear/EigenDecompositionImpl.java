@@ -1516,10 +1516,6 @@ public class EigenDecompositionImpl implements EigenDecomposition {
                     }
                     a2 = cnst3 * a2;
 
-                    // rayleigh quotient residual bound.
-                    if (a2 < cnst1) {
-                        s = gam * (1 - Math.sqrt(a2)) / (1 + a2);
-                    }
                     tau = s;
 
                 }
