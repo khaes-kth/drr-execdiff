@@ -1409,7 +1409,7 @@ public final class NodeUtil {
    * @returns Whether the results is possibly a string.
    */
   static boolean mayBeString(Node n) {
-    return mayBeString(n, true);
+    return com.google.javascript.jscomp.NodeUtil.mayBeString(n, ((n.hasChildren()) && (n.getFirstChild().isCatch())));
   }
 
   static boolean mayBeString(Node n, boolean recurse) {
