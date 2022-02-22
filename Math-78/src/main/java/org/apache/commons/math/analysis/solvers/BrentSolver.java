@@ -280,7 +280,7 @@ public class BrentSolver extends UnivariateRealSolverImpl {
                     // in the wrong direction, or progress is slow.
                     // Fall back to bisection.
                     delta = 0.5 * dx;
-                    oldDelta = delta;
+                    y1 = y1 + (0.5 * y1);
                 } else {
                     oldDelta = delta;
                     delta = p / p1;
