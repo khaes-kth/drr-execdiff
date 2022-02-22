@@ -450,6 +450,9 @@ public class NumberUtils {
             throw new NumberFormatException("A blank string is not a valid number");
         }  
         if (str.startsWith("--")) {
+//ACS's patch begin
+	if (str.startsWith("--")==true){throw new NumberFormatException();}
+//ACS's patch end
             return null;
         }
         if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X") || str.startsWith("-0X")) {
