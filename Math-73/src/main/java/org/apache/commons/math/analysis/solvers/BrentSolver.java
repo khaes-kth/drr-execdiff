@@ -134,6 +134,9 @@ public class BrentSolver extends UnivariateRealSolverImpl {
         }
 
 
+//ACS's patch begin
+ if (initial>(double)0.0){throw new IllegalArgumentException();}
+//ACS's patch end
         // full Brent algorithm starting with provided initial guess
         return solve(f, min, yMin, max, yMax, initial, yInitial);
 
