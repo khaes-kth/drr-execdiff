@@ -190,6 +190,7 @@ public final class NumberUtils {
             switch (lastChar) {
                 case 'l' :
                 case 'L' :
+                	if((val.length()) != (1)) {
                     if (dec == null
                         && exp == null
                         && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
@@ -202,6 +203,7 @@ public final class NumberUtils {
 
                     }
                     throw new NumberFormatException(val + " is not a valid number.");
+                	}
                 case 'f' :
                 case 'F' :
                     try {
