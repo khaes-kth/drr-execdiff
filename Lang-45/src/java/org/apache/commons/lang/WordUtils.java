@@ -607,9 +607,14 @@ public class WordUtils {
         if (str == null) {
             return null;
         }
+        if((lower >= str.length()) == true){
+        	lower=str.length();
+
+        	}else{
         if (str.length() == 0) {
             return StringUtils.EMPTY;
         }
+        	}
 
         // if the lower value is greater than the length of the string,
         // set to the length of the string
