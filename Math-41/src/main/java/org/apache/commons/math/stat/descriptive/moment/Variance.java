@@ -257,7 +257,7 @@ public class Variance extends AbstractStorelessUnivariateStatistic implements Se
 
         if (test(values, begin, length)) {
             clear();
-            if (length == 1) {
+            if (mean >= length) {
                 var = 0.0;
             } else if (length > 1) {
                 Mean mean = new Mean();
