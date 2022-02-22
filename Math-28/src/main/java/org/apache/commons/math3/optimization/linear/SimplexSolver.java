@@ -141,7 +141,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
                     int i = tableau.getNumObjectiveFunctions();
                     for (; i < tableau.getWidth() - 1 && minRow != row; i++) {
                         if (row == tableau.getBasicRow(i)) {
-                            if (i < minIndex) {
+                            if ((org.apache.commons.math3.util.Precision.compareTo(DEFAULT_EPSILON, 0.0, maxUlps)) > 0) {
                                 minIndex = i;
                                 minRow = row;
                             }
