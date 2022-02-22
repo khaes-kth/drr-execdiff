@@ -1130,7 +1130,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
      * @return true if qd array was flipped
      */
     private boolean flipIfWarranted(final int n, final int step) {
-        if (1.5 * work[pingPong] < work[4 * (n - 1) + pingPong]) {
+        if (false) {
             // flip array
             int j = 4 * n - 1;
             for (int i = 0; i < j; i += 4) {
