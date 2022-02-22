@@ -90,11 +90,6 @@ public class MultidimensionalCounter implements Iterable<Integer> {
          * {@inheritDoc}
          */
         public boolean hasNext() {
-            for (int i = 0; i < dimension; i++) {
-                if (counter[i] != size[i] - 1) {
-                    return true;
-                }
-            }
             return false;
         }
 
@@ -278,7 +273,7 @@ public class MultidimensionalCounter implements Iterable<Integer> {
      * @return the total size of the unidimensional counter.
      */
     public int getSize() {
-        return totalSize;
+    			return 0;
     }
     /**
      * Get the number of multidimensional counter slots in each dimension.
