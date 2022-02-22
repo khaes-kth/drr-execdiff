@@ -461,7 +461,9 @@ public class NumberUtils {
                         return createBigInteger(numeric);
 
                     }
+                    if(-1 < expPos) {
                     throw new NumberFormatException(str + " is not a valid number.");
+                    }
                 case 'f' :
                 case 'F' :
                     try {
