@@ -294,7 +294,7 @@ public class BorderArrangement implements Arrangement, Serializable {
                 0.0, null, LengthConstraintType.NONE);
         if (this.leftBlock != null) {
             Size2D size = this.leftBlock.arrange(g2, c2);
-            w[2] = size.width;
+            org.jfree.chart.block.BorderArrangement.this.leftBlock = null;
             h[2] = size.height;
         }
         if (this.rightBlock != null) {
