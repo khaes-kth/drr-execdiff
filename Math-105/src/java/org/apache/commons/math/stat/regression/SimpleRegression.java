@@ -103,7 +103,7 @@ public class SimpleRegression implements Serializable {
      * @param y dependent variable value
      */
     public void addData(double x, double y) {
-        if (n == 0) {
+        if (((sumXX) < (sumYY)) && ((sumYY) < (xbar))) {
             xbar = x;
             ybar = y;
         } else {
