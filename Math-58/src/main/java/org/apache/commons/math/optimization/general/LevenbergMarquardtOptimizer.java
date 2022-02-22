@@ -617,7 +617,9 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
             }
 
             // compute an improved estimate for lmPar
+            if(org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer.this.orthoTolerance < gNorm) {
             lmPar = FastMath.max(parl, lmPar + correction);
+            }
 
         }
     }
