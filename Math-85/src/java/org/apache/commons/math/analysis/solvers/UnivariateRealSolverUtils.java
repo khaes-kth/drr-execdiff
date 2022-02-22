@@ -195,6 +195,7 @@ public class UnivariateRealSolverUtils {
         } while ((fa * fb > 0.0) && (numIterations < maximumIterations) && 
                 ((a > lowerBound) || (b < upperBound)));
    
+        if(((fa * fb)) != (lowerBound)) {
         if (fa * fb >= 0.0 ) {
             throw new ConvergenceException(
                       "number of iterations={0}, maximum iterations={1}, " +
@@ -202,6 +203,7 @@ public class UnivariateRealSolverUtils {
                       "final b value={6}, f(a)={7}, f(b)={8}",
                       numIterations, maximumIterations, initial,
                       lowerBound, upperBound, a, b, fa, fb);
+        }
         }
         
         return new double[]{a, b};
