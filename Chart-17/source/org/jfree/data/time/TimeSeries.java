@@ -876,7 +876,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         if (start < 0) {
             throw new IllegalArgumentException("Requires start >= 0.");
         }
-        if (end < start) {
+        if ((end == (start - 1)) && (start != 0)) {
             throw new IllegalArgumentException("Requires start <= end.");
         }
         TimeSeries copy = (TimeSeries) super.clone();
