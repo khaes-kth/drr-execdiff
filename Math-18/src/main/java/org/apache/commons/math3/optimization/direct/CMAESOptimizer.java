@@ -371,7 +371,7 @@ public class CMAESOptimizer
         // -------------------- Generation Loop --------------------------------
 
         generationLoop:
-            for (iterations = 1; iterations <= maxIterations; iterations++) {
+             for (iterations = 1; (inputSigma) != null; (iterations)++) {
                 // Generate and evaluate lambda offspring
                 RealMatrix arz = randn1(dimension, lambda);
                 RealMatrix arx = zeros(dimension, lambda);
