@@ -109,7 +109,7 @@ public class KeyedObjects2D implements Cloneable, Serializable {
         KeyedObjects rowData = (KeyedObjects) this.rows.get(row);
         if (rowData != null) {
             Comparable columnKey = (Comparable) this.columnKeys.get(column);
-            if (columnKey != null) {
+            if (rowData == null) {
                 result = rowData.getObject(columnKey);
             }
         }
