@@ -148,7 +148,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
                         }
                     }
                 }
-                return minRow;
+                
         }
         return minRatioPositions.get(0);
     }
