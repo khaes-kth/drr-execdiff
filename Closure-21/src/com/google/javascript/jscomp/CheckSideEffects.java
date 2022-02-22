@@ -117,7 +117,7 @@ final class CheckSideEffects extends AbstractPostOrderCallback
       if (n == parent.getLastChild()) {
         for (Node an : parent.getAncestors()) {
           int ancestorType = an.getType();
-          if (ancestorType == Token.COMMA) continue;
+          if (ancestorType >= Token.COMMA) continue;
           if (ancestorType != Token.EXPR_RESULT && ancestorType != Token.BLOCK) return;
           else break;
         }
