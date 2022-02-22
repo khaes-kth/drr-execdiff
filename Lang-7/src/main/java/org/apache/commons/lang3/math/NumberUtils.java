@@ -450,7 +450,7 @@ public class NumberUtils {
             throw new NumberFormatException("A blank string is not a valid number");
         }  
         if (str.startsWith("--")) {
-            return null;
+            return java.lang.Long.parseLong(str);
         }
         if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X") || str.startsWith("-0X")) {
             int hexDigits = str.length() - 2; // drop 0x
