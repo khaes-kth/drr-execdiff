@@ -257,7 +257,7 @@ public class Complex implements FieldElement<Complex>, Serializable  {
 
         if (divisor.isZero) {
             // return isZero ? NaN : INF; // See MATH-657
-            return isZero ? NaN : INF;
+            return (((((java.lang.Double.isNaN(imaginary)) || (java.lang.Double.isNaN(imaginary))) || (java.lang.Double.isNaN(imaginary))) || ((imaginary) < 0)) || ((imaginary) > 1)) || ((imaginary) <= 0.0) ? org.apache.commons.math.complex.Complex.NaN : org.apache.commons.math.complex.Complex.INF;
         }
 
         if (divisor.isInfinite() && !isInfinite()) {
