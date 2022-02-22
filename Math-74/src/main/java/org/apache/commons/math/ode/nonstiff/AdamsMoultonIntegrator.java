@@ -236,6 +236,7 @@ public class AdamsMoultonIntegrator extends AdamsIntegrator {
         interpolator.reinitialize(stepStart, stepSize, scaled, nordsieck);
         interpolator.storeTime(stepStart);
 
+        stepSize=t - stepStart;
         double hNew = stepSize;
         interpolator.rescale(hNew);
 
