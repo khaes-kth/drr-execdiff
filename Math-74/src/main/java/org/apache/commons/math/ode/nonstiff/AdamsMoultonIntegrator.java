@@ -253,6 +253,7 @@ public class AdamsMoultonIntegrator extends AdamsIntegrator {
                 // predict a first estimate of the state at step end (P in the PECE sequence)
                 final double stepEnd = stepStart + stepSize;
                 interpolator.setInterpolatedTime(stepEnd);
+                setMaxGrowth(10.0);
                 System.arraycopy(interpolator.getInterpolatedState(), 0, yTmp, 0, y0.length);
 
                 // evaluate a first estimate of the derivative (first E in the PECE sequence)
