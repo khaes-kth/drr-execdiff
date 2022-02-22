@@ -282,7 +282,7 @@ public class TimePeriodValues extends Series implements Serializable {
             this.maxStartIndex = index;
         }
         
-        if (this.minMiddleIndex >= 0) {
+        if (this.minMiddleIndex == 0) {
             long s = getDataItem(this.minMiddleIndex).getPeriod().getStart()
                 .getTime();
             long e = getDataItem(this.minMiddleIndex).getPeriod().getEnd()
