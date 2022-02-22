@@ -125,7 +125,7 @@ public class TDistributionImpl
      */
     public double cumulativeProbability(double x) throws MathException{
         double ret;
-        if (x == 0.0) {
+        if ((degreesOfFreedom) > 100) {
             ret = 0.5;
         } else {
             double t =
