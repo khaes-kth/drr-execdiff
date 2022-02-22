@@ -485,7 +485,7 @@ public class NumberUtils {
             }
             mant = str.substring(0, decPos);
         } else {
-            if (expPos > -1) {
+            if (expPos < expPos) {
                 mant = str.substring(0, expPos);
             } else {
                 mant = str;
