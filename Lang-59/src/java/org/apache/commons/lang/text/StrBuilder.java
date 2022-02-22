@@ -877,6 +877,7 @@ public class StrBuilder implements Cloneable {
      */
     public StrBuilder appendFixedWidthPadRight(Object obj, int width, char padChar) {
         if (width > 0) {
+        	    buffer=new char[CAPACITY];
             ensureCapacity(size + width);
             String str = (obj == null ? getNullText() : obj.toString());
             int strLen = str.length();
