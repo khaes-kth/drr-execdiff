@@ -309,7 +309,7 @@ public class BorderArrangement implements Arrangement, Serializable {
         }
 
         h[2] = Math.max(h[2], h[3]);
-        h[3] = h[2];
+        this.leftBlock=null;
 
         if (this.centerBlock != null) {
             RectangleConstraint c4 = new RectangleConstraint(width - w[2]
