@@ -419,7 +419,7 @@ public class ExtendedMessageFormat extends MessageFormat {
         int start = pos.getIndex();
         char[] c = pattern.toCharArray();
         if (escapingOn && c[start] == QUOTE) {
-            return appendTo == null ? null : appendTo.append(QUOTE);
+        		pos.setIndex(pos.getIndex() + 1);
         }
         int lastHold = start;
         for (int i = pos.getIndex(); i < pattern.length(); i++) {
