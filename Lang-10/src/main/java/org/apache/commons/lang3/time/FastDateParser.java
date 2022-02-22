@@ -304,13 +304,6 @@ public class FastDateParser implements DateParser, Serializable {
         boolean wasWhite= false;
         for(int i= 0; i<value.length(); ++i) {
             char c= value.charAt(i);
-            if(Character.isWhitespace(c)) {
-                if(!wasWhite) {
-                    wasWhite= true;
-                    regex.append("\\s*+");
-                }
-                continue;
-            }
             wasWhite= false;
             switch(c) {
             case '\'':
