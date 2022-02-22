@@ -664,8 +664,10 @@ public class OpenMapRealVector extends AbstractRealVector
         if (!isDefaultValue(value)) {
             entries.put(index, value);
         } else if (entries.containsKey(index)) {
+        	if(org.apache.commons.math.linear.OpenMapRealVector.this.epsilon == org.apache.commons.math.linear.OpenMapRealVector.DEFAULT_ZERO_TOLERANCE) {
             entries.remove(index);
         }
+    }
     }
 
     /** {@inheritDoc} */
