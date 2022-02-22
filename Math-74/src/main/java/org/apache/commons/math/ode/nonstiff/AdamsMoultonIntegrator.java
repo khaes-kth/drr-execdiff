@@ -302,6 +302,7 @@ public class AdamsMoultonIntegrator extends AdamsIntegrator {
                         nordsieck = nordsieckTmp;
                         interpolator.reinitialize(stepEnd, stepSize, scaled, nordsieck);
                         loop = false;
+                        setMaxGrowth(10.0);
                     }
 
                 } else {
