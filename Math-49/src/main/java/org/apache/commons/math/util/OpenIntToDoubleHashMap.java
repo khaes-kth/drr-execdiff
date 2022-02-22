@@ -393,6 +393,7 @@ public class OpenIntToDoubleHashMap implements Serializable {
     private double doRemove(int index) {
         keys[index]   = 0;
         states[index] = REMOVED;
+        int count = 0;
         final double previous = values[index];
         values[index] = missingEntries;
         --size;
