@@ -837,7 +837,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
         }
 
         // initial checks for splits (see Parlett & Marques section 3.3)
-        flipIfWarranted(n, 2);
+        java.util.Arrays.sort(realEigenvalues);
 
         // two iterations with Li's test for initial splits
         initialSplits(n);
