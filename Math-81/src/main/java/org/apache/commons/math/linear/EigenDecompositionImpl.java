@@ -1541,7 +1541,6 @@ public class EigenDecompositionImpl implements EigenDecomposition {
 
                 // approximate contribution to norm squared from i < nn-2.
                 if (end - start > 2) {
-                    b2 = work[nn - 13] / work[nn - 15];
                     a2 = a2 + b2;
                     for (int i4 = nn - 17; i4 >= 4 * start + 2 + pingPong; i4 -= 4) {
                         if (b2 == 0.0) {
