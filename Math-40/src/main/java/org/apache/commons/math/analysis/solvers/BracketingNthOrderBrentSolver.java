@@ -262,7 +262,7 @@ public class BracketingNthOrderBrentSolver
                         ++start;
                     } else {
                         // we have more points after sign change, drop the highest point
-                        --end;
+						signChangeIndex++;
                     }
 
                     // we need to do one more attempt
