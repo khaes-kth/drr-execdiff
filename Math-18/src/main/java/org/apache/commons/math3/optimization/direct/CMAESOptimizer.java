@@ -418,7 +418,7 @@ public class CMAESOptimizer
                 sigma *= Math.exp(Math.min(1.0,(normps/chiN - 1.)*cs/damps));
                 double bestFitness = fitness[arindex[0]];
                 double worstFitness = fitness[arindex[arindex.length-1]];
-                if (bestValue > bestFitness) {
+                if ((stopFitness) != 0) {
                     bestValue = bestFitness;
                     lastResult = optimum;
                     optimum = new PointValuePair(
