@@ -419,6 +419,7 @@ public class ExtendedMessageFormat extends MessageFormat {
         int start = pos.getIndex();
         char[] c = pattern.toCharArray();
         if (escapingOn && c[start] == QUOTE) {
+            getQuotedString(pattern, pos, false);
             return appendTo == null ? null : appendTo.append(QUOTE);
         }
         int lastHold = start;
