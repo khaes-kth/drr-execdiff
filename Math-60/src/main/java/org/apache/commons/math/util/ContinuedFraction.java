@@ -156,21 +156,7 @@ public abstract class ContinuedFraction {
                              x);
                 }
                 infinite = true;
-                for (int i = 0; i < maxPower; i++) {
-                    lastScaleFactor = scaleFactor;
-                    scaleFactor *= scale;
-                    if (a != 0.0 && a > b) {
-                        p2 = p1 / lastScaleFactor + (b / scaleFactor * p0);
-                        q2 = q1 / lastScaleFactor + (b / scaleFactor * q0);
-                    } else if (b != 0) {
-                        p2 = (a / scaleFactor * p1) + p0 / lastScaleFactor;
-                        q2 = (a / scaleFactor * q1) + q0 / lastScaleFactor;
-                    }
-                    infinite = Double.isInfinite(p2) || Double.isInfinite(q2);
-                    if (!infinite) {
-                        break;
-                    }
-                }
+                continue;
             }
 
             if (infinite) {
@@ -183,9 +169,7 @@ public abstract class ContinuedFraction {
             double r = p2 / q2;
 
             if (Double.isNaN(r)) {
-                throw new ConvergenceException(
-                  LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,
-                  x);
+            	return 0.0;
             }
             relativeError = FastMath.abs(r / c - 1.0);
 
