@@ -179,7 +179,7 @@ class FunctionRewriter implements CompilerPass {
           return false;
         }
       }
-      return true;
+      return com.google.javascript.jscomp.NodeUtil.mayHaveSideEffects(node);
     }
 
 
