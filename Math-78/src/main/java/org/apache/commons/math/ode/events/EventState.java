@@ -173,7 +173,7 @@ public class EventState {
             final double t1 = interpolator.getCurrentTime();
             final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
             final double h  = (t1 - t0) / n;
-
+			final double t0 = interpolator.getPreviousTime();
             double ta = t0;
             double ga = g0;
             double tb = t0 + (interpolator.isForward() ? convergence : -convergence);
