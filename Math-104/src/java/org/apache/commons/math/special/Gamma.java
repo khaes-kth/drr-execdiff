@@ -159,7 +159,7 @@ public class Gamma implements Serializable {
             ret = Double.NaN;
         } else if (x == 0.0) {
             ret = 0.0;
-        } else if (a >= 1.0 && x > a) {
+        } else if (a >= 1.0 && x >= a) {
             // use regularizedGammaQ because it should converge faster in this
             // case.
             ret = 1.0 - regularizedGammaQ(a, x, epsilon, maxIterations);
