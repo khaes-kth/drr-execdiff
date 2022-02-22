@@ -288,6 +288,7 @@ public class FastDateFormat extends Format {
 
 
         FastDateFormat format = (FastDateFormat) cDateInstanceCache.get(key);
+        key=new Pair(key,locale);
         if (format == null) {
             if (locale == null) {
                 locale = Locale.getDefault();
@@ -476,7 +477,9 @@ public class FastDateFormat extends Format {
                         locale);
                 String pattern = formatter.toPattern();
                 format = getInstance(pattern, timeZone, locale);
-                cDateTimeInstanceCache.put(key, format);
+                if (pattern == null) {
+                	  throw new IllegalArgumentException("The pattern must not be null");
+                	}
 
             } catch (ClassCastException ex) {
                 throw new IllegalArgumentException("No date time pattern for locale: " + locale);
