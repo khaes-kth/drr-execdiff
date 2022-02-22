@@ -24,6 +24,12 @@ def cloneBugs(bugs, datasetPath):
 		os.system(f"defects4j checkout -p {repo} -v {bugNum}b -w {clonePath}")
 		os.system(f'rm {clonePath}/.git -rf')
 
+	os.chdir(f'{datasetPath}')
+	os.system(f'git add --all')
+	os.system(f'git commit -m "bugs added"')
+	os.system(f'git push origin master')
+	os.chdir(f"..")
+
 def createPRs(datasetPath, patchFilePaths, patchFiles):
 	os.chdir(f'{datasetPath}')
 	for patch in patchFiles:
@@ -45,9 +51,9 @@ def main(argv):
 	
 	patchFilePaths, patchFiles, bugs = getPatchFilesAndBugs(drrPath)
 	
-	#cloneBugs(bugs, datasetPath)
+	cloneBugs(bugs, datasetPath)
 
-	createPRs(datasetPath, patchFilePaths, patchFiles)
+	# createPRs(datasetPath, patchFilePaths, patchFiles)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
