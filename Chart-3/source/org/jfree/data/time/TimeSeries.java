@@ -624,7 +624,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
             }
         }
         if (added) {
-            updateBoundsForAddedItem(item);
+            findBoundsByIteration();
             // check if this addition will exceed the maximum item count...
             if (getItemCount() > this.maximumItemCount) {
                 TimeSeriesDataItem d = (TimeSeriesDataItem) this.data.remove(0);
