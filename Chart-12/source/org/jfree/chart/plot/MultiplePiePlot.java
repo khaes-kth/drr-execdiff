@@ -151,7 +151,10 @@ public class MultiplePiePlot extends Plot implements Cloneable, Serializable {
         TextTitle seriesTitle = new TextTitle("Series Title",
                 new Font("SansSerif", Font.BOLD, 12));
         seriesTitle.setPosition(RectangleEdge.BOTTOM);
-        this.pieChart.setTitle(seriesTitle);
+        if (dataset != null) {
+        	  setDatasetGroup(dataset.getGroup());
+        	  dataset.addChangeListener(this);
+        	}
         this.aggregatedItemsKey = "Other";
         this.aggregatedItemsPaint = Color.lightGray;
         this.sectionPaints = new HashMap();
