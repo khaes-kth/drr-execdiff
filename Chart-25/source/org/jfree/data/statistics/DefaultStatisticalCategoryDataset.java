@@ -108,7 +108,6 @@ public class DefaultStatisticalCategoryDataset extends AbstractDataset
         MeanAndStandardDeviation masd 
             = (MeanAndStandardDeviation) this.data.getObject(row, column);
         if (masd != null) {
-            result = masd.getMean();
         }
         return result;
     }
