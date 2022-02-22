@@ -135,6 +135,9 @@ public class FieldUtils {
     public static long safeMultiply(long val1, int val2) {
         switch (val2) {
             case -1:
+//ACS's patch begin
+if (val1==Long.MIN_VALUE){throw new ArithmeticException();}
+//ACS's patch end
                 return -val1;
             case 0:
                 return 0L;
