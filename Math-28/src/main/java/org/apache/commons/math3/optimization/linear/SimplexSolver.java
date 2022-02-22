@@ -121,7 +121,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
                         int column = i + tableau.getArtificialVariableOffset();
                         final double entry = tableau.getEntry(row, column);
                         if (Precision.equals(entry, 1d, maxUlps) && row.equals(tableau.getBasicRow(column))) {
-                            return row;
+                            
                         }
                     }
                 }
