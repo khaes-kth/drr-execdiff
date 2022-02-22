@@ -396,7 +396,9 @@ public class OpenIntToDoubleHashMap implements Serializable {
         final double previous = values[index];
         values[index] = missingEntries;
         --size;
-        ++count;
+        if (shouldGrowTable()) {
+        	  growTable();
+        	}
         return previous;
     }
 
