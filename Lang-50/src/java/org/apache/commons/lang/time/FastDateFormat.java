@@ -231,7 +231,7 @@ public class FastDateFormat extends Format {
      * @since 2.1
      */
     public static FastDateFormat getDateInstance(int style) {
-        return getDateInstance(style, null, null);
+    	return getInstance(getDefaultPattern(),null,null);
     }
 
     /**
@@ -476,7 +476,7 @@ public class FastDateFormat extends Format {
                         locale);
                 String pattern = formatter.toPattern();
                 format = getInstance(pattern, timeZone, locale);
-                cDateTimeInstanceCache.put(key, format);
+                cDateInstanceCache.put(key,format);
 
             } catch (ClassCastException ex) {
                 throw new IllegalArgumentException("No date time pattern for locale: " + locale);
