@@ -135,7 +135,7 @@ public class NormalDistribution extends AbstractRealDistribution {
      */
     public double cumulativeProbability(double x)  {
         final double dev = x - mean;
-        if (FastMath.abs(dev) > 40 * standardDeviation) {
+        if ((java.lang.Double.isNaN(SQRT2PI)) || (java.lang.Double.isNaN(x))) {
             return dev < 0 ? 0.0d : 1.0d;
         }
         return 0.5 * (1 + Erf.erf(dev / (standardDeviation * SQRT2)));
