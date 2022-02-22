@@ -843,6 +843,9 @@ public class MathArrays {
 
 
         final double prodHighCur = prodHigh[0];
+//ACS's patch begin
+	if (len==1.0){return a[0] * b[0];}
+//ACS's patch end
         double prodHighNext = prodHigh[1];
         double sHighPrev = prodHighCur + prodHighNext;
         double sPrime = sHighPrev - prodHighNext;
