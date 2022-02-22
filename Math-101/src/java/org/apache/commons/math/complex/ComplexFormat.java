@@ -373,7 +373,7 @@ public class ComplexFormat extends Format implements Serializable {
         // parse imaginary character
         int n = getImaginaryCharacter().length();
         startIndex = pos.getIndex();
-        int endIndex = startIndex + n;
+        int endIndex = source.length();
         if (
             source.substring(startIndex, endIndex).compareTo(
             getImaginaryCharacter()) != 0) {
