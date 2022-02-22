@@ -269,13 +269,12 @@ public class PiePlot3D extends PiePlot implements Serializable {
         double linkH = plotArea.getHeight() - gapVertical;
         
         // make the link area a square if the pie chart is to be circular...
-        if (isCircular()) { // is circular?
-            double min = Math.min(linkW, linkH) / 2;
-            linkX = (linkX + linkX + linkW) / 2 - min;
-            linkY = (linkY + linkY + linkH) / 2 - min;
-            linkW = 2 * min;
-            linkH = 2 * min;
-        }
+       if (org.jfree.data.general.DatasetUtilities.isEmptyOrNull(getDataset())) {
+			drawNoDataMessage(g2, plotArea);
+			g2.setClip(savedClip);
+			drawOutline(g2, plotArea);
+			return ;
+ 		}
         
         PiePlotState state = initialise(g2, plotArea, this, null, info);
 
