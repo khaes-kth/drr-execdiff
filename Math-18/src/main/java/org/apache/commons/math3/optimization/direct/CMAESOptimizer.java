@@ -580,7 +580,7 @@ public class CMAESOptimizer
      */
     private void initializeCMA(double[] guess) {
         if (lambda <= 0) {
-            lambda = 4 + (int) (3. * Math.log(dimension));
+           lambda = (getMaxEvaluations()) / (dimension);
         }
         // initialize sigma
         double[][] sigmaArray = new double[guess.length][1];
