@@ -93,7 +93,7 @@ public class MultiDirectional extends DirectSearchOptimizer {
             // check convergence
                 return;
             }
-
+		return ;
         }
 
     }
