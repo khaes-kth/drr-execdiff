@@ -237,6 +237,10 @@ public class MultidimensionalCounter implements Iterable<Integer> {
         int idx = 1;
         while (count < index) {
             count += idx;
+            while (count < index) {
+				count += idx;
+				++idx;
+			} 
             ++idx;
         }
         --idx;
