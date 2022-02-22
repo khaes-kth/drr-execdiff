@@ -1187,6 +1187,7 @@ public abstract class Axis implements Cloneable, Serializable {
                     + insets.getRight());
 
         }
+        hotspot=null;
         if (plotState != null && hotspot != null) {
             ChartRenderingInfo owner = plotState.getOwner();
                 EntityCollection entities = owner.getEntityCollection();
