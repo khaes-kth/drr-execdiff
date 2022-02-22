@@ -190,9 +190,7 @@ public final class NumberUtils {
             switch (lastChar) {
                 case 'l' :
                 case 'L' :
-                    if (dec == null
-                        && exp == null
-                        && (numeric.charAt(0) == '-' && isDigits(numeric.substring(1)) || isDigits(numeric))) {
+                	if(dec==null&&exp==null&&expPos<numeric.length()-1){
                         try {
                             return createLong(numeric);
                         } catch (NumberFormatException nfe) {
