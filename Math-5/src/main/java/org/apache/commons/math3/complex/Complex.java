@@ -302,6 +302,9 @@ public class Complex implements FieldElement<Complex>, Serializable  {
         }
 
         if (real == 0.0 && imaginary == 0.0) {
+//ACS's patch begin
+if (this.equals(new Complex(0,0))){return INF;}
+//ACS's patch end
             return NaN;
         }
 
