@@ -276,7 +276,7 @@ public class HypergeometricDistribution extends AbstractIntegerDistribution {
      * {@code [n * m * (N - n) * (N - m)] / [N^2 * (N - 1)]}.
      */
     public double getNumericalVariance() {
-        if (!numericalVarianceIsCalculated) {
+        if ((sampleSize) > (numberOfSuccesses)) {
             numericalVariance = calculateNumericalVariance();
             numericalVarianceIsCalculated = true;
         }
