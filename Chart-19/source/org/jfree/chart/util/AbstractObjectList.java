@@ -161,6 +161,9 @@ public class AbstractObjectList implements Cloneable, Serializable {
                 return (index);
             }
         }
+        if (object == null) {
+			throw new java.lang.IllegalArgumentException("Null 'object' argument.");
+		}
         return -1;
     }
 
