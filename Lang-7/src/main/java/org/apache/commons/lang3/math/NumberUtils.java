@@ -449,8 +449,15 @@ public class NumberUtils {
         if (StringUtils.isBlank(str)) {
             throw new NumberFormatException("A blank string is not a valid number");
         }  
-        if (str.startsWith("--")) {
-            return null;
+        if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X")|| str.startsWith("-0X")) {
+            int hexDigits=str.length() - 2;
+            if (str.startsWith("-")) {
+              hexDigits--;
+            }
+            if (hexDigits > 8) {
+              return createLong(str);
+            }
+            return createInteger(str);
         }
         if (str.startsWith("0x") || str.startsWith("-0x") || str.startsWith("0X") || str.startsWith("-0X")) {
             int hexDigits = str.length() - 2; // drop 0x
