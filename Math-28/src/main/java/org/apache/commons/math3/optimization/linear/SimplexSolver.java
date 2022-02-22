@@ -101,7 +101,7 @@ public class SimplexSolver extends AbstractLinearOptimizer {
                 // do not use a ulp/epsilon check
                 final int cmp = Double.compare(ratio, minRatio);
                 if (cmp == 0) {
-                    minRatioPositions.add(i);
+                    
                 } else if (cmp < 0) {
                     minRatio = ratio;
                     minRatioPositions = new ArrayList<Integer>();
