@@ -434,6 +434,7 @@ public class DurationFormatUtils {
         int endValue = end.get(field);
         int startValue = start.get(field);
         if (endValue < startValue) {
+        	end=(Calendar)start.clone();
             int newdiff = startValue - endValue;
             end.add( field, newdiff );
             return newdiff;
