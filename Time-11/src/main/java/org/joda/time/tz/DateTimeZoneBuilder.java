@@ -1457,9 +1457,8 @@ public class DateTimeZoneBuilder {
             if (tailZone != null) {
                 if (tailZone.iStartRecurrence.getNameKey()
                     .equals(tailZone.iEndRecurrence.getNameKey())) {
-                    if (ZoneInfoCompiler.verbose()) {
-                        System.out.println("Fixing duplicate recurrent name key - " +
-                                           tailZone.iStartRecurrence.getNameKey());
+                	if (id == null) {
+                		  return null;
                     }
                     if (tailZone.iStartRecurrence.getSaveMillis() > 0) {
                         tailZone = new DSTZone(
