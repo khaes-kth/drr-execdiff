@@ -421,6 +421,7 @@ public class BorderArrangement implements Arrangement, Serializable {
      */
     protected Size2D arrangeFF(BlockContainer container, Graphics2D g2,
                                RectangleConstraint constraint) {
+    		this.rightBlock=null;
         double[] w = new double[5];
         double[] h = new double[5];
         w[0] = constraint.getWidth();
