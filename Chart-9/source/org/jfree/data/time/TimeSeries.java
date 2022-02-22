@@ -944,6 +944,9 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
         if (endIndex < 0) {
             emptyRange = true;
         }
+        if((startIndex == 1) == true){
+        	return this;
+        	}
         if (emptyRange) {
             TimeSeries copy = (TimeSeries) super.clone();
             copy.data = new java.util.ArrayList();
