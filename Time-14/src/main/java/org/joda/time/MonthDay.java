@@ -516,7 +516,7 @@ public final class MonthDay
             return this;
         }
         int[] newValues = getValues();
-        newValues = getField(index).add(this, index, newValues, amount);
+        newValues=getField(index).addWrapPartial(this,index,newValues,amount);
         return new MonthDay(this, newValues);
     }
 
