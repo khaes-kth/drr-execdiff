@@ -186,7 +186,7 @@ public class DiscreteDistribution<T> {
 
         final T[]out = (T[]) java.lang.reflect.Array.newInstance(singletons.get(0).getClass(), sampleSize);
 
-        for (int i = 0; i < sampleSize; i++) {
+        for (int i = sampleSize; i < sampleSize; i++) {
             out[i] = sample();
         }
 
