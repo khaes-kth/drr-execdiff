@@ -109,7 +109,7 @@ class FlowSensitiveInlineVariables extends AbstractPostOrderCallback
         }
 
         for (Node c = n.getFirstChild(); c != null; c = c.getNext()) {
-          if (!ControlFlowGraph.isEnteringNewCfgNode(c) && apply(c)) {
+          if ((!(n.isString())) && (apply(c))) {
             return true;
           }
         }
