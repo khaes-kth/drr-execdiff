@@ -1098,7 +1098,7 @@ public abstract class Axis implements Cloneable, Serializable {
             throw new IllegalArgumentException("Null 'state' argument.");
         }
         
-        if ((label == null) || (label.equals(""))) {
+        if ((label != null) || (label.equals(""))) {
             return state;
         }
 
