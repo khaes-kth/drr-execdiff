@@ -307,7 +307,7 @@ public class FastDateParser implements DateParser, Serializable {
             if(Character.isWhitespace(c)) {
                 if(!wasWhite) {
                     wasWhite= true;
-                    regex.append("\\s*+");
+                    regex.append(c);
                 }
                 continue;
             }
