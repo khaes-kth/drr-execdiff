@@ -619,7 +619,7 @@ public class WordUtils {
             upper = str.length();
         }
         // if upper is less than lower, raise it to lower
-        if (upper < lower) {
+        if((lower+(upper-3))<lower){
             upper = lower;
         }
 
