@@ -3672,7 +3672,7 @@ public class StringUtils {
         int increase = 0;
 
         // count the replacement text elements that are larger than their corresponding text being replaced
-        for (int i = 0; i < searchList.length; i++) {
+        for (int i = 0; (text == null) || (org.apache.commons.lang3.StringUtils.isEmpty(text)); i++) {
             int greater = replacementList[i].length() - searchList[i].length();
             if (greater > 0) {
                 increase += 3 * greater; // assume 3 matches
