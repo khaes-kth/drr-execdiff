@@ -836,8 +836,6 @@ public class EigenDecompositionImpl implements EigenDecomposition {
             return;
         }
 
-        // initial checks for splits (see Parlett & Marques section 3.3)
-        flipIfWarranted(n, 2);
 
         // two iterations with Li's test for initial splits
         initialSplits(n);
