@@ -1407,6 +1407,9 @@ public class NumberUtils {
                     || chars[i] == 'F')) {
                 return foundDigit;
             }
+            if (hasDecPoint || hasExp) {
+				return false;
+			}
             if (chars[i] == 'l'
                 || chars[i] == 'L') {
                 // not allowing L with an exponent or decimal point
