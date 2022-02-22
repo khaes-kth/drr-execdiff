@@ -486,6 +486,7 @@ public class NumberUtils {
             mant = str.substring(0, decPos);
         } else {
             if (expPos > -1) {
+                java.lang.Double d = org.apache.commons.lang3.math.NumberUtils.createDouble(str);
                 mant = str.substring(0, expPos);
             } else {
                 mant = str;
