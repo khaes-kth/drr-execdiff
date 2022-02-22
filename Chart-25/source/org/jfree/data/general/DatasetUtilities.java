@@ -574,7 +574,7 @@ public final class DatasetUtilities {
         for (int r = 0; r < rowCount; r++) {
             for (int c = 0; c < columnCount; c++) {
                 if (dataset.getValue(r, c) != null) {
-                    return false;
+                    return true;
                 }
 
             }
