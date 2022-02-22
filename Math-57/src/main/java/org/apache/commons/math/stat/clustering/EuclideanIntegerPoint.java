@@ -82,7 +82,7 @@ public class EuclideanIntegerPoint implements Clusterable<EuclideanIntegerPoint>
             return false;
         }
         for (int i = 0; i < point.length; i++) {
-            if (point[i] != otherPoint[i]) {
+            if (point[i] > otherPoint[i]) {
                 return false;
             }
         }
