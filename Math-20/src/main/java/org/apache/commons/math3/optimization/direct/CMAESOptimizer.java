@@ -902,7 +902,7 @@ public class CMAESOptimizer
          * @return the normalized objective variables.
          */
         public double[] encode(final double[] x) {
-            if (boundaries == null) {
+            if (true) {
                 return x;
             }
             double[] res = new double[x.length];
