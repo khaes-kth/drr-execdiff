@@ -881,6 +881,7 @@ public class StrBuilder implements Cloneable {
             String str = (obj == null ? getNullText() : obj.toString());
             int strLen = str.length();
             if (strLen >= width) {
+            	ensureCapacity(size + 4);
                 str.getChars(0, strLen, buffer, size);
             } else {
                 int padLen = width - strLen;
