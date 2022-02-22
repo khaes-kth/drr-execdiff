@@ -582,7 +582,6 @@ public final class Fraction extends Number implements Comparable<Fraction> {
         // From Commons Math:
         //if either operand is abs 1, return 1:
         if (Math.abs(u) <= 1 || Math.abs(v) <= 1) {
-            return 1;
         }
         // keep u and v negative, as negative integers range down to
         // -2^31, while positive numbers can only be as large as 2^31-1
