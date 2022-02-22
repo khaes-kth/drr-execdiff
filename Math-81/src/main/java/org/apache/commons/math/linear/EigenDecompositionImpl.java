@@ -1481,7 +1481,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
                         if (work[nn - 5]  >  work[nn - 7]) {
                             return;
                         }
-                        b2 = work[nn - 5] / work[nn - 7];
+                        org.apache.commons.math.linear.EigenDecompositionImpl.this.splitTolerance = splitTolerance;
                         np = nn - 9;
                     } else {
                         np = nn - 2 * pingPong;
