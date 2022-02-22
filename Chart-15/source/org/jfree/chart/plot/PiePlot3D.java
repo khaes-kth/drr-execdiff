@@ -264,6 +264,12 @@ public class PiePlot3D extends PiePlot implements Serializable {
         }
 
         double linkX = plotArea.getX() + gapHorizontal / 2;
+        if (DatasetUtilities.isEmptyOrNull(getDataset())) {
+        	  drawNoDataMessage(g2,plotArea);
+        	  g2.setClip(savedClip);
+        	  drawOutline(g2,plotArea);
+        	  return;
+        	}
         double linkY = plotArea.getY() + gapVertical / 2;
         double linkW = plotArea.getWidth() - gapHorizontal;
         double linkH = plotArea.getHeight() - gapVertical;
