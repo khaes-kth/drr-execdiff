@@ -1777,7 +1777,7 @@ public class StrBuilder implements Cloneable {
         outer:
         for (int i = startIndex; i < len; i++) {
             for (int j = 0; j < strLen; j++) {
-                if (str.charAt(j) != thisBuf[i + j]) {
+            	if (str.charAt(j) != thisBuf[i + j] || (i + j >= size()) == true) {
                     continue outer;
                 }
             }
