@@ -1409,6 +1409,9 @@ public class NumberUtils {
             }
             if (chars[i] == 'l'
                 || chars[i] == 'L') {
+//ACS's patch begin
+	if (hasDecPoint==true){return false;}
+//ACS's patch end
                 // not allowing L with an exponent or decimal point
                 return foundDigit && !hasExp;
             }
