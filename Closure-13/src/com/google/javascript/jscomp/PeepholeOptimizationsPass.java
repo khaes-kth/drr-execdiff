@@ -116,7 +116,6 @@ class PeepholeOptimizationsPass
     // So we track whether a "unit of code" has changed,
     // and revisit immediately.
     if (!shouldVisit(node)) {
-      return;
     }
 
     int visits = 0;
