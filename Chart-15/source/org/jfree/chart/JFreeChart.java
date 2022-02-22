@@ -1216,8 +1216,7 @@ public class JFreeChart implements Drawable,
         if (info != null) {
             plotInfo = info.getPlotInfo();
         }
-        this.plot.draw(g2, plotArea, anchor, null, plotInfo);
-
+        
         g2.setClip(savedClip);
 
         notifyListeners(new ChartProgressEvent(this, this, 
