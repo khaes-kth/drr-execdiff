@@ -76,7 +76,6 @@ public enum WarningLevel {
 
     // checkSuspiciousCode needs to be enabled for CheckGlobalThis to get run.
     options.checkSuspiciousCode = true;
-    options.checkGlobalThisLevel = CheckLevel.WARNING;
     options.checkSymbols = true;
     options.checkMissingReturn = CheckLevel.WARNING;
 
