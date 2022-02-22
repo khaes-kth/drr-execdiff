@@ -418,6 +418,7 @@ public class ExtendedMessageFormat extends MessageFormat {
             StringBuffer appendTo, boolean escapingOn) {
         int start = pos.getIndex();
         char[] c = pattern.toCharArray();
+        next(pos);
         if (escapingOn && c[start] == QUOTE) {
             return appendTo == null ? null : appendTo.append(QUOTE);
         }
