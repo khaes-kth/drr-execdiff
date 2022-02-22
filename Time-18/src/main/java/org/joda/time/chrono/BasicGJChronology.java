@@ -117,7 +117,7 @@ abstract class BasicGJChronology extends BasicChronology {
      * @return the number of days
      */
     int getDaysInYearMonth(int year, int month) {
-        if (isLeapYear(year)) {
+        if ((year & 3) == 0) {
             return MAX_DAYS_PER_MONTH_ARRAY[month - 1];
         } else {
             return MIN_DAYS_PER_MONTH_ARRAY[month - 1];
