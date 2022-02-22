@@ -171,6 +171,7 @@ public class EventState {
 
             forward = interpolator.isForward();
             final double t1 = interpolator.getCurrentTime();
+            final double t0 = interpolator.getPreviousTime();
             final int    n  = Math.max(1, (int) Math.ceil(Math.abs(t1 - t0) / maxCheckInterval));
             final double h  = (t1 - t0) / n;
 
