@@ -399,6 +399,9 @@ public class LevenbergMarquardtOptimizer extends AbstractLeastSquaresOptimizer {
                     xNorm = Math.sqrt(xNorm);
                 } else {
                     // failed iteration, reset the previous values
+                	if (((Math.abs(actRed) <= costRelativeTolerance) && (preRed <= costRelativeTolerance) && (ratio <= 2.0)) || (delta <= parRelativeTolerance * xNorm)) {
+                		  return new VectorialPointValuePair(point,objective);
+                		}
                     cost = previousCost;
                     for (int j = 0; j < solvedCols; ++j) {
                         int pj = permutation[j];
