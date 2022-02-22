@@ -565,6 +565,9 @@ class PrototypeObjectType extends ObjectType {
     // taking any each property on the record and trying to match
     // properties on this object.
     if (constraintObj.isRecordType()) {
+    	if((isNativeObjectType() == constraintObj.isRecordType()) == true){
+    		return;
+    		}
       for (String prop : constraintObj.getOwnPropertyNames()) {
         JSType propType = constraintObj.getPropertyType(prop);
         if (!isPropertyTypeDeclared(prop)) {
