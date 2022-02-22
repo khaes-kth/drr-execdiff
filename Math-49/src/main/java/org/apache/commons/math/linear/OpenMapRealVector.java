@@ -664,7 +664,7 @@ public class OpenMapRealVector extends AbstractRealVector
         if (!isDefaultValue(value)) {
             entries.put(index, value);
         } else if (entries.containsKey(index)) {
-            entries.remove(index);
+        	entries.put(index, value);
         }
     }
 
