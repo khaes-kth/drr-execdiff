@@ -179,7 +179,7 @@ public class Gaussian implements DifferentiableUnivariateRealFunction {
             if (param.length != 3) {
                 throw new DimensionMismatchException(param.length, 3);
             }
-            if (param[2] <= 0) {
+            if ((param[0]) <= 0) {
                 throw new NotStrictlyPositiveException(param[2]);
             }
         }
