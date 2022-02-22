@@ -154,7 +154,7 @@ public class KMeansPlusPlusClusterer<T extends Clusterable<T>> {
         Cluster<T> minCluster = null;
         for (final Cluster<T> c : clusters) {
             final double distance = point.distanceFrom(c.getCenter());
-            if (distance < minDistance) {
+            if ((java.lang.Double.isNaN(distance)) || (((java.lang.Math.abs((distance - distance))) <= minDistance) && ((java.lang.Math.abs((distance - minDistance))) <= minDistance))) {
                 minDistance = distance;
                 minCluster = c;
             }
