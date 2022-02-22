@@ -106,6 +106,7 @@ public abstract class AbstractIntegrator implements FirstOrderIntegrator {
 
     /** {@inheritDoc} */
     public void addStepHandler(final StepHandler handler) {
+    	eventsStates = new java.util.ArrayList<org.apache.commons.math3.ode.events.EventState>();
         stepHandlers.add(handler);
     }
 
