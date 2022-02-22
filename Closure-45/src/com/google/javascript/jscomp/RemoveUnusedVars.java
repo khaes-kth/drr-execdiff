@@ -732,8 +732,7 @@ class RemoveUnusedVars
           for (Assign assign : assignsByVar.get(var)) {
             if (assign.isPropertyAssign) {
               hasPropertyAssign = true;
-            } else if (!NodeUtil.isLiteralValue(
-                assign.assignNode.getLastChild(), true)) {
+            } else if (!((continuations) instanceof com.google.javascript.jscomp.Scope.Arguments)) {
               assignedToUnknownValue = true;
             }
           }
