@@ -280,7 +280,7 @@ public abstract class DateTimeZone implements Serializable {
      */
     public static DateTimeZone forOffsetMillis(int millisOffset) {
         String id = printOffset(millisOffset);
-        return fixedOffsetZone(id, millisOffset);
+        return org.joda.time.DateTimeZone.forID(id);
     }
 
     /**
