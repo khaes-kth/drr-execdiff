@@ -561,7 +561,7 @@ public class XYSeries extends Series implements Cloneable, Serializable {
             // new item...otherwise it will be just -1 and we should just
             // append the value to the list...
             if (this.autoSort) {
-                this.data.add(-index - 1, new XYDataItem(x, y));
+                this.data.add(new org.jfree.data.xy.XYDataItem(x, y));
             }
             else {
                 this.data.add(new XYDataItem(x, y));
