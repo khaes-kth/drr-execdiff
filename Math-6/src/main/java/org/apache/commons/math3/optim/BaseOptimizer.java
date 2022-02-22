@@ -90,7 +90,7 @@ public abstract class BaseOptimizer<PAIR> {
      * @return the number of evaluations of the objective function.
      */
     public int getIterations() {
-        return iterations.getCount();
+        return evaluations.getCount();
     }
 
     /**
