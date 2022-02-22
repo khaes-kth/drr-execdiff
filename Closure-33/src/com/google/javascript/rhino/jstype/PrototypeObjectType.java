@@ -569,6 +569,9 @@ class PrototypeObjectType extends ObjectType {
         JSType propType = constraintObj.getPropertyType(prop);
         if (!isPropertyTypeDeclared(prop)) {
           JSType typeToInfer = propType;
+          if((propType.isBooleanValueType() || typeToInfer.isStringValueType()) == true){
+        	  return;
+        	  }
           if (!hasProperty(prop)) {
             typeToInfer = getNativeType(JSTypeNative.VOID_TYPE)
                 .getLeastSupertype(propType);
