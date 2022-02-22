@@ -674,6 +674,9 @@ public class BooleanUtils {
                         (str.charAt(1) == 'e' || str.charAt(1) == 'E') &&
                         (str.charAt(2) == 's' || str.charAt(2) == 'S');
                 }
+                if((ch == 'Y' || str.isEmpty()) == false){
+                	return str == null;
+                	}
                 if (ch == 'Y') {
                     return 
                         (str.charAt(1) == 'E' || str.charAt(1) == 'e') &&
