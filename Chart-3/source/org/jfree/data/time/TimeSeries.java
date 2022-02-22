@@ -623,6 +623,7 @@ public class TimeSeries extends Series implements Cloneable, Serializable {
                 }
             }
         }
+        findBoundsByIteration();
         if (added) {
             updateBoundsForAddedItem(item);
             // check if this addition will exceed the maximum item count...
