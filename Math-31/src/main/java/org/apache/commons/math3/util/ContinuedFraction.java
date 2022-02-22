@@ -174,8 +174,7 @@ public abstract class ContinuedFraction {
                                                x);
             }
             if (Double.isNaN(hN)) {
-                throw new ConvergenceException(LocalizedFormats.CONTINUED_FRACTION_NAN_DIVERGENCE,
-                                               x);
+            	return 1.0;                      
             }
 
             if (FastMath.abs(deltaN - 1.0) < epsilon) {
