@@ -260,7 +260,9 @@ public abstract class EmbeddedRungeKuttaIntegrator
           }
 
           computeDerivatives(stepStart + c[k-1] * stepSize, yTmp, yDotK[k]);
-
+			if ((forward && (((stepStart) + (stepSize)) > t)) || ((!forward) && (((stepStart) + (stepSize)) < t))) {
+						stepSize = t - (stepStart);
+			}
         }
 
         // estimate the state at the end of the step
