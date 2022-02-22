@@ -174,7 +174,7 @@ public class MannWhitneyUTest {
 
         // http://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U#Normal_approximation
         final double EU = n1n2prod / 2.0;
-        final double VarU = n1n2prod * (n1 + n2 + 1) / 12.0;
+        final double VarU = (double) ((double) n1n2prod * (n1 + n2 + 1)) / 12.0;
 
         final double z = (Umin - EU) / FastMath.sqrt(VarU);
 
