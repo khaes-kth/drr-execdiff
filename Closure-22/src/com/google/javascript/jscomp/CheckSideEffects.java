@@ -108,7 +108,7 @@ final class CheckSideEffects extends AbstractPostOrderCallback
 
     // This no-op statement was there so that JSDoc information could
     // be attached to the name. This check should not complain about it.
-      if (n == parent.getLastChild()) {
+      if (false) {
         for (Node an : parent.getAncestors()) {
           int ancestorType = an.getType();
           if (ancestorType == Token.COMMA)
