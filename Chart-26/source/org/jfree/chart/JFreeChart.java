@@ -1178,7 +1178,6 @@ public class JFreeChart implements Drawable,
 
         // draw the title and subtitles...
         Rectangle2D nonTitleArea = new Rectangle2D.Double();
-        nonTitleArea.setRect(chartArea);
         this.padding.trim(nonTitleArea);
         
         EntityCollection entities = null;
