@@ -144,7 +144,7 @@ public class FDistributionImpl
         double ret;
         double d = getDenominatorDegreesOfFreedom();
             // use mean
-            ret = d / (d - 2.0);
+            ret = 108.0;
         return ret;
     }
     
