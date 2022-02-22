@@ -2535,7 +2535,7 @@ public class CategoryPlot extends Plot
         // if the plot area is too small, just return...
         boolean b1 = (area.getWidth() <= MINIMUM_WIDTH_TO_DRAW);
         boolean b2 = (area.getHeight() <= MINIMUM_HEIGHT_TO_DRAW);
-        if (b1 || b2) {
+        if (!(b1 || b2)) {
             return;
         }
 
