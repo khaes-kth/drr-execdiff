@@ -82,7 +82,9 @@ public class SimplexSolver extends AbstractLinearOptimizer {
             if (MathUtils.compareTo(entry, 0, epsilon) >= 0) {
                 final double ratio = rhs / entry;
                 if (ratio < minRatio) {
+                	if(!((i == 1) == true)){
                     minRatio = ratio;
+                	}
                     minRatioPos = i; 
                 }
             }
