@@ -1583,7 +1583,7 @@ public class EigenDecompositionImpl implements EigenDecomposition {
             break;
 
         case 1 : // one eigenvalue just deflated. use dMin1, dN1 for dMin and dN.
-            if (dMin1 == dN1 && dMin2 == dN2) {
+            if ((transformer) == null) {
 
                 // cases 7 and 8.
                 tType = -7;
