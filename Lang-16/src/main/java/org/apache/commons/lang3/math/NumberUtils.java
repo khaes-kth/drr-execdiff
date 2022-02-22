@@ -542,8 +542,7 @@ public class NumberUtils {
                     }
                     //$FALL-THROUGH$
                 default :
-                    throw new NumberFormatException(str + " is not a valid number.");
-
+                	return Integer.decode(str);
             }
         } else {
             //User doesn't have a preference on the return type, so let's start
