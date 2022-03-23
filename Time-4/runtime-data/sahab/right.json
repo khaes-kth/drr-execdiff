@@ -1,0 +1,542 @@
+[
+  {
+    "file": "org/joda/time/field/ZeroIsMaxDateTimeField.java",
+    "lineNumber": 178,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.field.ZeroIsMaxDateTimeField:178",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "instant",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "values",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "961749798233026866",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iField",
+            "value": "org.joda.time.field.PreciseDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iType",
+            "value": "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 2,
+        "location": "org.joda.time.chrono.BaseChronology:207",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "partial",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "values",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "size",
+            "value": "3",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "i",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "value",
+            "value": "6",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "field",
+            "value": "org.joda.time.field.ZeroIsMaxDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-7310865996721419676",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 3,
+        "location": "org.joda.time.Partial:465",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "fieldType",
+            "value": "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "value",
+            "value": "6",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "index",
+            "value": "-1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newTypes",
+            "value": "[org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newValues",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "i",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "unitField",
+            "value": "org.joda.time.field.PreciseDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newPartial",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "12324121189002",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iChronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iTypes",
+            "value": "[org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iValues",
+            "value": "[10, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iFormatter",
+            "value": "null",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 4,
+        "location": "org.joda.time.TestPartial_Basics:363",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "test",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "PARIS",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "LONDON",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TOKYO",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_PARIS",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_TOKYO",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_UTC",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ISO_UTC",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_LONDON",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_TOKYO",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_UTC",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TEST_TIME_NOW",
+            "value": "37230040",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TEST_TIME2",
+            "value": "104767008",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "fName",
+            "value": "java.lang.String",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/field/ZeroIsMaxDateTimeField.java",
+    "lineNumber": 178,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.field.ZeroIsMaxDateTimeField:178",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "instant",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "values",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "961749798233026866",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iField",
+            "value": "org.joda.time.field.PreciseDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iType",
+            "value": "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 2,
+        "location": "org.joda.time.chrono.BaseChronology:210",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "partial",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "values",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "size",
+            "value": "3",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "i",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "value",
+            "value": "6",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "field",
+            "value": "org.joda.time.field.ZeroIsMaxDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-7310865996721419676",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 3,
+        "location": "org.joda.time.Partial:465",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "fieldType",
+            "value": "org.joda.time.DateTimeFieldType$StandardDateTimeFieldType",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "value",
+            "value": "6",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "index",
+            "value": "-1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newTypes",
+            "value": "[org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newValues",
+            "value": "[10, 6, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "i",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "unitField",
+            "value": "org.joda.time.field.PreciseDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "newPartial",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "12324121189002",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iChronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iTypes",
+            "value": "[org.joda.time.DateTimeFieldType$StandardDateTimeFieldType, org.joda.time.DateTimeFieldType$StandardDateTimeFieldType]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iValues",
+            "value": "[10, 20]",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iFormatter",
+            "value": "null",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 4,
+        "location": "org.joda.time.TestPartial_Basics:363",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "test",
+            "value": "org.joda.time.Partial",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "PARIS",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "LONDON",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TOKYO",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_PARIS",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_TOKYO",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "COPTIC_UTC",
+            "value": "org.joda.time.chrono.CopticChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ISO_UTC",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_LONDON",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_TOKYO",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "BUDDHIST_UTC",
+            "value": "org.joda.time.chrono.BuddhistChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TEST_TIME_NOW",
+            "value": "37230040",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "TEST_TIME2",
+            "value": "104767008",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "fName",
+            "value": "java.lang.String",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  }
+]
