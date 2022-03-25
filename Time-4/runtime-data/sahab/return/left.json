@@ -1,0 +1,98 @@
+[
+  {
+    "kind": "RETURN",
+    "methodName": "\u003cinit\u003e",
+    "value": "\u003cvoid value\u003e",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:50"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "\u003cinit\u003e",
+    "value": "\u003cvoid value\u003e",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:50"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getMinimumValue",
+    "value": "1",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:111"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getMaximumValue",
+    "value": "24",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:148"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getMinimumValue",
+    "value": "1",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:138"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getMaximumValue",
+    "value": "24",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:178"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  },
+  {
+    "kind": "RETURN",
+    "methodName": "getLeapDurationField",
+    "value": "null",
+    "location": "org.joda.time.field.ZeroIsMaxDateTimeField:102"
+  }
+]
