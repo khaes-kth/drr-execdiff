@@ -1,0 +1,8 @@
+[
+  {
+    "kind": "RETURN",
+    "methodName": "getOffsetFromLocal",
+    "value": "0",
+    "location": "org.joda.time.DateTimeZone:910"
+  }
+]

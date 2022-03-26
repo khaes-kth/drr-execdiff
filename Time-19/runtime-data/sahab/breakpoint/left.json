@@ -1,0 +1,1232 @@
+[
+  {
+    "file": "org/joda/time/DateTimeZone.java",
+    "lineNumber": 900,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.DateTimeZone:900",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "instantLocal",
+            "value": "1319937300000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "offsetLocal",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "instantAdjusted",
+            "value": "1319937300000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "offsetAdjusted",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "5546345482340108586",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "UTC",
+            "value": "org.joda.time.tz.FixedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cProvider",
+            "value": "org.joda.time.tz.ZoneInfoProvider",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cNameProvider",
+            "value": "org.joda.time.tz.DefaultNameProvider",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cAvailableIDs",
+            "value": "java.util.TreeSet",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cDefault",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cOffsetFormatter",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iFixedOffsetCache",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "cZoneIdConversion",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iID",
+            "value": "java.lang.String",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 2,
+        "location": "org.joda.time.chrono.ZonedChronology:140",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "instant",
+            "value": "1319937300000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-1079258847191166848",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBase",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iParam",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSeconds",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinutes",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHours",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeeks",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonths",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturies",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEras",
+            "value": "org.joda.time.field.UnsupportedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfSecond",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfMinute",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfHour",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdayOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfWeek",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfMonth",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekOfWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonthOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturyOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBaseFlags",
+            "value": "0",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 3,
+        "location": "org.joda.time.chrono.ZonedChronology:119",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "year",
+            "value": "2011",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "monthOfYear",
+            "value": "10",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "dayOfMonth",
+            "value": "30",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "hourOfDay",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "minuteOfHour",
+            "value": "15",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "secondOfMinute",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millisOfSecond",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-1079258847191166848",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBase",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iParam",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSeconds",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinutes",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHours",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeeks",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonths",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturies",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEras",
+            "value": "org.joda.time.field.UnsupportedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfSecond",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfMinute",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfHour",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdayOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfWeek",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfMonth",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekOfWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonthOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturyOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBaseFlags",
+            "value": "0",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 4,
+        "location": "org.joda.time.chrono.AssembledChronology:133",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "year",
+            "value": "2011",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "monthOfYear",
+            "value": "10",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "dayOfMonth",
+            "value": "30",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "hourOfDay",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "minuteOfHour",
+            "value": "15",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "secondOfMinute",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millisOfSecond",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "base",
+            "value": "org.joda.time.chrono.ZonedChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-6728465968995518215",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBase",
+            "value": "org.joda.time.chrono.ZonedChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iParam",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSeconds",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinutes",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHours",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDays",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeeks",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonths",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYears",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturies",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEras",
+            "value": "org.joda.time.field.UnsupportedDurationField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfSecond",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillisOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfMinute",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iSecondOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfHour",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMinuteOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iClockhourOfHalfday",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iHalfdayOfDay",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfWeek",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfMonth",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iDayOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekOfWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iWeekyearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMonthOfYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYear",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iYearOfCentury",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iCenturyOfEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iEra",
+            "value": "org.joda.time.chrono.ZonedChronology$ZonedDateTimeField",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iBaseFlags",
+            "value": "7",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 5,
+        "location": "org.joda.time.base.BaseDateTime:254",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "year",
+            "value": "2011",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "monthOfYear",
+            "value": "10",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "dayOfMonth",
+            "value": "30",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "hourOfDay",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "minuteOfHour",
+            "value": "15",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "secondOfMinute",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millisOfSecond",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "chronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-6728882245981",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iChronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 6,
+        "location": "org.joda.time.base.BaseDateTime:223",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "year",
+            "value": "2011",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "monthOfYear",
+            "value": "10",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "dayOfMonth",
+            "value": "30",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "hourOfDay",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "minuteOfHour",
+            "value": "15",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "secondOfMinute",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millisOfSecond",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-6728882245981",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iChronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 7,
+        "location": "org.joda.time.DateTime:331",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "year",
+            "value": "2011",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "monthOfYear",
+            "value": "10",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "dayOfMonth",
+            "value": "30",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "hourOfDay",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "minuteOfHour",
+            "value": "15",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "serialVersionUID",
+            "value": "-5171125899451703815",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iMillis",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iChronology",
+            "value": "org.joda.time.chrono.ISOChronology",
+            "nestedTypes": null
+          }
+        ]
+      },
+      {
+        "positionFromTopInStackTrace": 8,
+        "location": "org.joda.time.TestDateTimeZoneCutover:1265",
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "zone",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_GAZA",
+            "value": "1175378400000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "OFFSET_GAZA",
+            "value": "7200000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "MOCK_GAZA",
+            "value": "org.joda.time.MockZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_TURK",
+            "value": "1175403600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "OFFSET_TURK",
+            "value": "-18000000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "MOCK_TURK",
+            "value": "org.joda.time.MockZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_NEW_YORK_SPRING",
+            "value": "1173596400000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ZONE_NEW_YORK",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_NEW_YORK_AUTUMN",
+            "value": "1194156000000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_MOSCOW_SPRING",
+            "value": "1174777200000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ZONE_MOSCOW",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_MOSCOW_AUTUMN",
+            "value": "1193526000000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "CUTOVER_GUATEMALA_AUTUMN",
+            "value": "1159678800000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ZONE_GUATEMALA",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "ZONE_PARIS",
+            "value": "org.joda.time.tz.CachedDateTimeZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "fName",
+            "value": "java.lang.String",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  }
+]
