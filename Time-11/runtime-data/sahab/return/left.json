@@ -1,0 +1,100 @@
+[
+  {
+    "kind": "RETURN",
+    "methodName": "create",
+    "value": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone",
+    "location": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:1480",
+    "nestedTypes": [
+      {
+        "kind": "FIELD",
+        "name": "serialVersionUID",
+        "value": "7811976468055766265",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iTransitions",
+        "value": "[-9223372036854775808, -11637212400000, -11618463600000]",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iWallOffsets",
+        "value": "[3600000, 7200000, 3600000]",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iStandardOffsets",
+        "value": "[3600000, 3600000, 3600000]",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iNameKeys",
+        "value": "[java.lang.String, java.lang.String, java.lang.String]",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iTailZone",
+        "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "UTC",
+        "value": "org.joda.time.tz.FixedDateTimeZone",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cProvider",
+        "value": "org.joda.time.tz.ZoneInfoProvider",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cNameProvider",
+        "value": "org.joda.time.tz.DefaultNameProvider",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cAvailableIDs",
+        "value": "java.util.TreeSet",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cDefault",
+        "value": "org.joda.time.tz.FixedDateTimeZone",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cOffsetFormatter",
+        "value": "null",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iFixedOffsetCache",
+        "value": "null",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "cZoneIdConversion",
+        "value": "java.util.HashMap",
+        "nestedTypes": null
+      },
+      {
+        "kind": "FIELD",
+        "name": "iID",
+        "value": "java.lang.String",
+        "nestedTypes": null
+      }
+    ]
+  }
+]

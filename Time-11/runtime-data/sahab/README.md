@@ -1,0 +1,2 @@
+- `--object-depth` is set to `1` because I was not getting any difference in return value for `0`. Turns out, there isn't any difference for `1` as well.
+- The breakpoint is set at the diff-like unlike Khashayar suggested to put the breakpoints on all matched lines.
