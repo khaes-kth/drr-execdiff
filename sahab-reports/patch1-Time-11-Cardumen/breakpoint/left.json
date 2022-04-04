@@ -1,0 +1,1274 @@
+[
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 333,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:333",
+        "stackTrace": [
+          "toDateTimeZone:333, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 339,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:339",
+        "stackTrace": [
+          "toDateTimeZone:339, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 343,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:343",
+        "stackTrace": [
+          "toDateTimeZone:343, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 345,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:345",
+        "stackTrace": [
+          "toDateTimeZone:345, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 346,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:346",
+        "stackTrace": [
+          "toDateTimeZone:346, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 348,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:348",
+        "stackTrace": [
+          "toDateTimeZone:348, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 349,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:349",
+        "stackTrace": [
+          "toDateTimeZone:349, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 383,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:383",
+        "stackTrace": [
+          "toDateTimeZone:383, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 390,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:390",
+        "stackTrace": [
+          "toDateTimeZone:390, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 396,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:396",
+        "stackTrace": [
+          "toDateTimeZone:396, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 397,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:397",
+        "stackTrace": [
+          "toDateTimeZone:397, org.joda.time.tz.DateTimeZoneBuilder",
+          "testDateTimeZoneBuilder:90, org.joda.time.tz.TestCompiler",
+          "runTest:40, se.kth.debug.MethodTestRunner",
+          "lambda$main$0:16, se.kth.debug.MethodTestRunner",
+          "call:-1, se.kth.debug.MethodTestRunner$$Lambda$1.1159190947"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ1\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "zone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 333,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:333",
+        "stackTrace": [
+          "toDateTimeZone:333, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 339,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:339",
+        "stackTrace": [
+          "toDateTimeZone:339, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 343,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:343",
+        "stackTrace": [
+          "toDateTimeZone:343, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 345,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:345",
+        "stackTrace": [
+          "toDateTimeZone:345, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 346,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:346",
+        "stackTrace": [
+          "toDateTimeZone:346, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 348,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:348",
+        "stackTrace": [
+          "toDateTimeZone:348, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 349,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:349",
+        "stackTrace": [
+          "toDateTimeZone:349, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "null",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "-9223372036854775808",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "0",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 383,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:383",
+        "stackTrace": [
+          "toDateTimeZone:383, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 390,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:390",
+        "stackTrace": [
+          "toDateTimeZone:390, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "org/joda/time/tz/DateTimeZoneBuilder.java",
+    "lineNumber": 396,
+    "stackFrameContexts": [
+      {
+        "positionFromTopInStackTrace": 1,
+        "location": "org.joda.time.tz.DateTimeZoneBuilder:396",
+        "stackTrace": [
+          "toDateTimeZone:396, org.joda.time.tz.DateTimeZoneBuilder",
+          "run:94, org.joda.time.tz.TestCompiler$1"
+        ],
+        "runtimeValueCollection": [
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "id",
+            "type": "java.lang.String",
+            "value": "\"TestDTZ2\"",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "outputID",
+            "type": "boolean",
+            "value": "true",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "transitions",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "tailZone",
+            "type": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "value": "org.joda.time.tz.DateTimeZoneBuilder$DSTZone",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "millis",
+            "type": "long",
+            "value": "9223372036854775807",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "saveMillis",
+            "type": "int",
+            "value": "3600000",
+            "nestedTypes": null
+          },
+          {
+            "kind": "LOCAL_VARIABLE",
+            "name": "ruleSetCount",
+            "type": "int",
+            "value": "1",
+            "nestedTypes": null
+          },
+          {
+            "kind": "FIELD",
+            "name": "iRuleSets",
+            "type": "java.util.ArrayList",
+            "value": "java.util.ArrayList",
+            "nestedTypes": null
+          }
+        ]
+      }
+    ]
+  }
+]
