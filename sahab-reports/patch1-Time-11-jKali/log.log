@@ -1,0 +1,937 @@
+M       Time-11/pom.xml
+Note: switching to 'e5d67a8162aebb7dbd5df8cdc21442ef111d2ba1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at e5d67a81 bugs added
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.3-SNAPSHOT
+[WARNING] The expression ${pom.build.sourceDirectory} is deprecated. Please use ${project.build.sourceDirectory} instead.
+[WARNING] The expression ${pom.build.outputDirectory} is deprecated. Please use ${project.build.outputDirectory} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda time 2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ joda-time ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/assert/Desktop/experiments/drr-as-pr/Time-11/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 9 resources to .
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ joda-time ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 157 source files to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/classes
+[WARNING] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) > validate @ joda-time >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) < validate @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ joda-time ---
+Writing zoneinfo files
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ joda-time ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ joda-time ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 154 source files to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/test-classes
+[WARNING] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.001 s
+[INFO] Finished at: 2022-04-04T17:30:56+02:00
+[INFO] ------------------------------------------------------------------------
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.3-SNAPSHOT
+[WARNING] The expression ${pom.build.sourceDirectory} is deprecated. Please use ${project.build.sourceDirectory} instead.
+[WARNING] The expression ${pom.build.outputDirectory} is deprecated. Please use ${project.build.outputDirectory} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda time 2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ joda-time ---
+[INFO] Copying joda-convert-1.2.jar to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/dependency/joda-convert-1.2.jar
+[INFO] Copying junit-3.8.2.jar to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/dependency/junit-3.8.2.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.202 s
+[INFO] Finished at: 2022-04-04T17:30:59+02:00
+[INFO] ------------------------------------------------------------------------
+M       Time-11/pom.xml
+Previous HEAD position was e5d67a81 bugs added
+Switched to branch 'patch1-Time-11-jKali'
+Your branch is up to date with 'origin/patch1-Time-11-jKali'.
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.3-SNAPSHOT
+[WARNING] The expression ${pom.build.sourceDirectory} is deprecated. Please use ${project.build.sourceDirectory} instead.
+[WARNING] The expression ${pom.build.outputDirectory} is deprecated. Please use ${project.build.outputDirectory} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda time 2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ joda-time ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/assert/Desktop/experiments/drr-as-pr/Time-11/src/main/resources
+[INFO] Copying 2 resources to META-INF
+[INFO] Copying 9 resources to .
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:compile (default-compile) @ joda-time ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 157 source files to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/classes
+[WARNING] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[INFO] 
+[INFO] >>> exec-maven-plugin:1.2.1:java (default) > validate @ joda-time >>>
+[INFO] 
+[INFO] <<< exec-maven-plugin:1.2.1:java (default) < validate @ joda-time <<<
+[INFO] 
+[INFO] 
+[INFO] --- exec-maven-plugin:1.2.1:java (default) @ joda-time ---
+Writing zoneinfo files
+Fixing duplicate recurrent name key - CST
+Fixing duplicate recurrent name key - CST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - EST
+Fixing duplicate recurrent name key - CST
+Fixing duplicate recurrent name key - CST
+Fixing duplicate recurrent name key - LHST
+Fixing duplicate recurrent name key - LHST
+Writing ZoneInfoMap
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ joda-time ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 32 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.0:testCompile (default-testCompile) @ joda-time ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 154 source files to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/test-classes
+[WARNING] Unable to autodetect 'javac' path, using 'javac' from the environment.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  9.817 s
+[INFO] Finished at: 2022-04-04T17:31:11+02:00
+[INFO] ------------------------------------------------------------------------
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for joda-time:joda-time:jar:2.3-SNAPSHOT
+[WARNING] The expression ${pom.build.sourceDirectory} is deprecated. Please use ${project.build.sourceDirectory} instead.
+[WARNING] The expression ${pom.build.outputDirectory} is deprecated. Please use ${project.build.outputDirectory} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] 
+[INFO] ------------------------< joda-time:joda-time >-------------------------
+[INFO] Building Joda time 2.3-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-dependency-plugin:2.8:copy-dependencies (default-cli) @ joda-time ---
+[INFO] Copying joda-convert-1.2.jar to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/dependency/joda-convert-1.2.jar
+[INFO] Copying junit-3.8.2.jar to /home/assert/Desktop/experiments/drr-as-pr/Time-11/target/dependency/junit-3.8.2.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.003 s
+[INFO] Finished at: 2022-04-04T17:31:13+02:00
+[INFO] ------------------------------------------------------------------------
+Apr 04, 2022 5:31:16 PM se.kth.debug.MatchedLineFinder findMethod
+WARNING: org.joda.time.DateTimeZone:1336 has no parent method.
+Apr 04, 2022 5:31:16 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/assert/Desktop/assert-achievements/collector-sahab/target/debugger-1.0-SNAPSHOT-jar-with-dependencies.jar:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-left/dependency:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-left/test-classes:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-left/classes se.kth.debug.MethodTestRunner org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+Apr 04, 2022 5:31:17 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 45161
+Apr 04, 2022 5:31:17 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone added!
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:18 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:21 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:22 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Apr 04, 2022 5:31:22 PM se.kth.debug.Collector call
+INFO: Output file generated!
+Apr 04, 2022 5:31:22 PM se.kth.debug.Collector call
+INFO: Return values are output to the file!
+Apr 04, 2022 5:31:22 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: java -cp /home/assert/Desktop/assert-achievements/collector-sahab/target/debugger-1.0-SNAPSHOT-jar-with-dependencies.jar:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-right/dependency:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-right/test-classes:/home/assert/Desktop/experiments/drr-as-pr/Time-11/sahab-right/classes se.kth.debug.MethodTestRunner org.joda.time.tz.TestCompiler::testDateTimeZoneBuilder
+Apr 04, 2022 5:31:22 PM se.kth.debug.Debugger launchVMAndJunit
+INFO: Connected to port: 33887
+Apr 04, 2022 5:31:22 PM se.kth.debug.Debugger addClassPrepareEvent
+INFO: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone added!
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:23 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:24 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTransitions
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iWallOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iStandardOffsets
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iNameKeys
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.tz.DateTimeZoneBuilder$PrecalculatedZone:iTailZone
+Apr 04, 2022 5:31:27 PM se.kth.debug.Debugger collectFields
+WARNING: Cannot get fields of static inner classes: org.joda.time.DateTimeZone:iID
+Apr 04, 2022 5:31:28 PM se.kth.debug.EventProcessor startEventProcessor
+WARNING: com.sun.jdi.VMDisconnectedException
+Apr 04, 2022 5:31:28 PM se.kth.debug.Collector call
+INFO: Output file generated!
+Apr 04, 2022 5:31:28 PM se.kth.debug.Collector call
+INFO: Return values are output to the file!
