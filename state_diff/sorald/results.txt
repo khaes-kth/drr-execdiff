@@ -1,0 +1,7 @@
+galimatias: done
+bitfinex-v2-wss-api-java: no breakpoint
+junit4: change in test
+nbvcxz: no breakpoint
+geohash-java: no breakpoint for either of the fixes
+Vitro: no breakpoint for test failure causing fixes
+YCSB: failure causing change isn't in source
