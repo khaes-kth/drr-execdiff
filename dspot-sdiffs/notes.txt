@@ -1,0 +1,121 @@
+commons-cli,VM exit during test
+commons-codec,VM exit during test
+commons-collections,[ERROR]   both method <T>toArray(T[]) in java.util.Collection and method <T>toArray(java.util.function.IntFunction<T[]>) in java.util.Collection match
+commons-io, c6b8a383de96cd0a8e94037a04510f162e4bbc68, no matched lines for sahab
+commons-io, 2736b6fe0b3fa22ec8e2b4184897ecadb021fc78, multi-method change
+commons-io, a4705cc3c310ffb422336b319891f63eef021f1c, fails to run the tests
+commons-io, f00d97a6cea0a08c8112ffb8bd0b6847373899ae, multi-file change
+commons-io, 3378280035f388157e007a06f7fcb74698b91e3e, change in exception message
+commons-io,a7bd568249f9ec20b69b2a700da6a0648e93a842, similar to 703228a3d40881ea52faada723726b05f6d77b8a
+commons-io,57f493adef716d49ed1fd2f4e857febfe0a48aa8, change in exception throwing
+commons-io,5d072ef89fbc2532f621a5a0b4d6791cb926a997, multi-method change
+commons-io,76e45d6a50da6228c44b04a565dca96432c4b197, multi-method change
+commons-io,afe78a030b57e3f74825e134d6615ef4878778cc, multi-mehtod change
+commons-io,7c58d8a9919c5c9dbc1485a21d56bb3f37444060, multi-method change
+commons-io,0bfb0f2b5ec98b5fd85dd5ab58c6a4dd3c0a821a, multi-method change
+commons-io,49f8c2a817f811bdc9fc3e7f550a8e0b13503e7f, multi-file change
+commons-io,ed1723428847e2e7c24e9a8c3e379fda0c0f7496, multi-file change
+commons-io,071dbe7c211380bd4bed252c9b7a767279d112bc, multi-method change
+commons-io,2bbdd4e503e69fc06c5d371c15eec14258eac6d8, old java
+protostuff,768ee13cb6be385eda4dcc4739045226ca0b1dcc, multi-method change
+jopt-simple,31ed6b5b2c903b5fdcadf5566bb1a652ca98fb9e, multi-method change
+core,4c0951ede09874253ac2c693a85306b909f61bbd, multi-method change
+core,65564fd2bba4f18a870c4d032f5c53c0c1adda5d, multi-method change
+core,caff5b79880ee3dd94f31bdfa829f7acc9b2fad8, mutli-method change
+java-library,e091ab73d28c8651517202bfed31a4041a21477b, multi-method change
+java-library,dadc2f8a6658ecbdca7749571b037ee9d3d33509, multi-method change
+java-library,3cabf68f463864ffeae921a49d2452da8a0a1696, multi-method change
+java-library,067bf8516534c78c5863b4fed03ca0d6c7bc61a4, multi-method change
+java-library,e37606e7a16d7b63c8f2cc260acbbf7f88f2571c, multi-method change
+java-library,2bc53eacffd590d36eed6ff201f1ea1ae8e930f5, multi-file change
+java-library,527531b3d8a70d8b5dd38fb18683a08e8127ed02, multi-method change
+java-library,176abdec60b36826ad34438b2cca7a06c0cbfeb1, multi-method change
+java-library,4939d0daf72434ad283c06134ab0cecc3bbe1006, similar to 03e6f9aee5123470457c21b3e44c649a6cc54cae
+commons-lang,f56931c176fef5e164b681c740746aebdccccec3, non-source file change
+commons-lang,87937b2e7192524306aa58d74c90537eec997cfa, multi-method change
+commons-lang,09ef69c5b51115300da6df43690cd455d83c8027, non-source file change
+commons-lang,3fadfdd69f4682f05563ce53e55743f55813f488, non-source file change
+commons-lang,e7d16c27629722a93a9d36a0b5e0a3a793850544, non-source file change - out of method change
+commons-lang,50ce8c44e1601acffa39f5568f0fc140aade0564, multi-file change
+commons-lang,2e9f3a80146262511ca7bcdd3411f095dff4951d, multi-method change
+commons-lang,6f03c0ce11db4a270124b9bf93338d3db9fccf5c, multi-method change
+gson,7a9fd5962dce7f277efa15fcc996606be0733bac, multi-method change
+gson,03a72e752ef68269990f984c9fd613cfd59224bc, multi-method change
+gson,a300148003e3a067875b1444e8268b6e0f0e0e02, multi-method change
+gson,b2c00a3b02eec48ed621fa7cfec54ac6da4aa48d, multi-method change
+gson,45511fdd1534aa4fcc3c560ac4c0b439d94fc2ad, multi-method change
+mustache.java,a1197f7789b24d694f16dad29f917e9be43f0dc2, multi-file change
+mustache.java,88770279e1cd73895cd31dbf96b6ffc022424d3c, non-source change
+mustache.java,88718bc1699655a9a503cefc773f352b4cb1163c, change in exception message
+mustache.java,339161fc2bae5c148881428e00ffb9b74aa0b959, multi-file change
+mustache.java,94847cc5f814b65b8895fcdb3ebef74dfbf54407, similar to 774ae7add1f6b3396e7d6554397a71f3ea1e2104
+mustache.java,eca08ca2bd58898310d302e63da185a568aee81a, non-source change
+mustache.java,6d7225c1e7c3b77c3a0f4441936de85769ac17e1, similar to eca08ca2bd58898310d302e63da185a568aee81a
+mustache.java,8ac71b72a840a7debc676f1093b399030e25f8aa, multi-method change
+jsoup,426ffe7870b937ef9cfa25ebe20e7a478493da99, multi-method change
+jsoup,e38dfd44829e13ee83fd62bfe937580f5a998c11, multi-file change
+jsoup,0f7e0cc373aced32629f5321c9521f81d8248647, multi-method change
+jsoup,2c4e79b104c0ff32566ce247617d47c0b39cc2c7, multi-file change
+jsoup,3676b132429306c722304e94177172dca42c2dda, multi-file change
+pdfbox,f6a2c276b5c44cab0814661d18f07e4d65dbbe47, multi-method change
+pdfbox,b09eae6a6e33d71507bf7cfc76548cf3e8e9377d, no new test specified
+pdfbox,241d248c77aec46840d6f2ad72f92adc4976164d, multi-method change
+pdfbox,f83bcc1fe60502759024a3b51983b29c7de66327, no new test specified
+pdfbox,ed24b8cf263b04d70ab6e23f8d563199f7e09ac2, no new test specified
+pdfbox,1dba19c0f556d7199b4e0d01016b521ab84d1449, no new test specified
+pdfbox,434e58512430b4976fda661ebedc2549c96a1d7e, multi-method change
+pdfbox,a58e6d9cbfd0c9d62b6d76c2a83992bd7d1d330a, no new test specified
+pdfbox,4948da9ca99814e10a266d24b239dcd07fed2708, multi-file change
+pdfbox,77144604bc3f2f760893a4bebcf59c87380f0c50, no new test specified
+pdfbox,cb55349008f5622138ea72dee96ad3e1eb00f255, no new test specified
+pdfbox,e112ac64eb17b19fceb761f98d65adb3a4ee72c5, multi-file change
+pdfbox,a67c9ddff52f08465d822209ac7d0821c00e595f, multi-file change
+pdfbox,ec9c079850d21e62399f718c91881c5d63d32e53, multi-file change
+xwiki-commons,ffc3997add18f586a306206b3097071d16d6ee8e, multi-method change
+xwiki-commons,10841b1a8f4019dda818285a6910c654dac0a59a, multi-file change
+xwiki-commons,848c984f6a761b020a61f2d709b1f2779322c9ce, multi-file change
+xwiki-commons,adfefecde0c2a6bbeaa85f24bde1a0cd2949daa7, multi-file change
+xwiki-commons,d3101aed5d0b3df40e9ac9cf1a40af74262d5f75, multi-method change
+xwiki-commons,a0e8b778741e6f6aa85c3cd0dbb6a8474641fe03, multi-method change
+xwiki-commons,78ff0991d97c3148fc8c43aa5bd9e16b089323f0, out of method change
+xwiki-commons,1b797142d13fa4c63c5c720fb664b245bbcd445d, multi-method change
+xwiki-commons,6dc90595fb844f143b81c2cd314e5f872a5c9b62, multi-method change
+xwiki-commons,8f82e342b47195f793b815bed4d30cc6f3a5cbbe, multi-method change
+xwiki-commons,7ee5210fed142e81b3323640a6bb478e7b8f7286, multi-method change
+xwiki-commons,6287cb5d5a0f3f0bbe7dcbe568f2531bdea91ed1, multi-method change
+xwiki-commons,89c61a408ee6fc975780a6568c443b6ab667212d, no new test specified
+xwiki-commons,b2dc094ca1dc26608541fc9ae32d8726fe3842c3, multi-method change
+xwiki-commons,fa9bd1125ed67dbaea717576313bd88268093630, multi-method change
+xwiki-commons,641c7892b01486a2885676b729e4a7863274c56d, multi-file change
+xwiki-commons,b6df3644fa73cd3f0da9633c400d58b365dc41e2, multi-file change
+xwiki-commons,99c4ea58ff7658b7a2165820275683ebf7010e41, multi-file change
+
+
+APPROPRIATE COMMITS
+https://github.com/khaes-kth/commons-io/commit/a053fefc0e9349ad5e97ff2353e3a8cf6873bfa7
+https://github.com/urbanairship/java-library/commit/03e6f9aee5123470457c21b3e44c649a6cc54cae
+https://github.com/apache/commons-lang/commit/c8e61afdb89c58ea8ffaf04593da41ff0888d30e
+https://github.com/apache/commons-lang/commit/d8ec011d770e1e04ef4f87fba673f3748f363278
+https://github.com/apache/commons-lang/commit/7d061e33e59e23dc4b03378f35f50a7d70f033b3
+https://github.com/google/gson/commit/b1fb9ca9a1bea5440bc6a5b506ccf67236b08243
+https://github.com/google/gson/commit/74e37110e5edf38d1c9ec1b46f42670340a0c6c7
+https://github.com/google/gson/commit/ada597e69a78b8b99f79f79493cbf51e16045202
+https://github.com/google/gson/commit/9a2421997e83ec803c88ea370a2d102052699d3b
+https://github.com/google/gson/commit/9e6f2bab20257b6823a5b753739f047d79e9dcbd
+https://github.com/google/gson/commit/44cad04a639b3a53f4205f93acda37b3f7d10871
+https://github.com/spullara/mustache.java/commit/d8936b4c331e7d40eaad6e5d65b30cff0beb06e7
+https://github.com/spullara/mustache.java/commit/774ae7add1f6b3396e7d6554397a71f3ea1e2104
+https://github.com/jhy/jsoup/commit/a810d2e3615da9a37ad74a7db2ca8bc6945ab9a8
+https://github.com/jhy/jsoup/commit/6be19a6fa26e6e5e3d716283bad4b5de0348a8b7
+https://github.com/jhy/jsoup/commit/e9feec90dbd3e428dc1930c3b5efbd9271160d01
+https://github.com/jhy/jsoup/commit/e5210d1f9ef4f1d41ff0a8c4a2ab8e9192d5e087
+https://github.com/jhy/jsoup/commit/df272b77c2cf89e9cbe2512bbddf8a3bc28a704b
+https://github.com/apache/pdfbox/commit/a6b3b6c614221e323d4172dd362896c50ffb737a
+https://github.com/apache/pdfbox/commit/76b74e9dee2239ba0a0ec79e2bebd1d08abaa235
+https://github.com/xwiki/xwiki-commons/commit/ced26356e8ee384967b8349b7dbf461166422a64
+https://github.com/xwiki/xwiki-commons/commit/7b9ed5a88b7d2cfe76bb372a0cac1f9553210194
+https://github.com/apache/commons-lang/commit/f56931c176fef5e164b681c740746aebdccccec3
+https://github.com/apache/commons-lang/commit/09ef69c5b51115300da6df43690cd455d83c8027
+https://github.com/apache/commons-lang/commit/3fadfdd69f4682f05563ce53e55743f55813f488
+https://github.com/spullara/mustache.java/commit/88770279e1cd73895cd31dbf96b6ffc022424d3c
+https://github.com/spullara/mustache.java/commit/eca08ca2bd58898310d302e63da185a568aee81a
