@@ -93,10 +93,10 @@ xwiki-commons,99c4ea58ff7658b7a2165820275683ebf7010e41, multi-file change
 
 APPROPRIATE COMMITS
 https://github.com/khaes-kth/commons-io/commit/a053fefc0e9349ad5e97ff2353e3a8cf6873bfa7
-https://github.com/urbanairship/java-library/commit/03e6f9aee5123470457c21b3e44c649a6cc54cae
-https://github.com/apache/commons-lang/commit/c8e61afdb89c58ea8ffaf04593da41ff0888d30e
-https://github.com/apache/commons-lang/commit/d8ec011d770e1e04ef4f87fba673f3748f363278
-https://github.com/apache/commons-lang/commit/7d061e33e59e23dc4b03378f35f50a7d70f033b3
+https://github.com/urbanairship/java-library/commit/03e6f9aee5123470457c21b3e44c649a6cc54cae, VM error on tests
+https://github.com/apache/commons-lang/commit/c8e61afdb89c58ea8ffaf04593da41ff0888d30e, NPE running tests
+https://github.com/apache/commons-lang/commit/d8ec011d770e1e04ef4f87fba673f3748f363278, last line of method change
+https://github.com/apache/commons-lang/commit/7d061e33e59e23dc4b03378f35f50a7d70f033b3, only execution time changes not states
 https://github.com/google/gson/commit/b1fb9ca9a1bea5440bc6a5b506ccf67236b08243
 https://github.com/google/gson/commit/74e37110e5edf38d1c9ec1b46f42670340a0c6c7
 https://github.com/google/gson/commit/ada597e69a78b8b99f79f79493cbf51e16045202
