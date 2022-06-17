@@ -105,18 +105,18 @@ https://github.com/google/gson/commit/9e6f2bab20257b6823a5b753739f047d79e9dcbd, 
 https://github.com/google/gson/commit/44cad04a639b3a53f4205f93acda37b3f7d10871, sahab doesnt find target
 https://github.com/spullara/mustache.java/commit/d8936b4c331e7d40eaad6e5d65b30cff0beb06e7, old java
 https://github.com/spullara/mustache.java/commit/774ae7add1f6b3396e7d6554397a71f3ea1e2104, old java
-https://github.com/jhy/jsoup/commit/a810d2e3615da9a37ad74a7db2ca8bc6945ab9a8
+https://github.com/jhy/jsoup/commit/a810d2e3615da9a37ad74a7db2ca8bc6945ab9a8, done
 https://github.com/jhy/jsoup/commit/6be19a6fa26e6e5e3d716283bad4b5de0348a8b7
-https://github.com/jhy/jsoup/commit/e9feec90dbd3e428dc1930c3b5efbd9271160d01
+https://github.com/jhy/jsoup/commit/e9feec90dbd3e428dc1930c3b5efbd9271160d01, done
 https://github.com/jhy/jsoup/commit/e5210d1f9ef4f1d41ff0a8c4a2ab8e9192d5e087
 https://github.com/jhy/jsoup/commit/df272b77c2cf89e9cbe2512bbddf8a3bc28a704b
-https://github.com/apache/pdfbox/commit/a6b3b6c614221e323d4172dd362896c50ffb737a
-https://github.com/apache/pdfbox/commit/76b74e9dee2239ba0a0ec79e2bebd1d08abaa235
-https://github.com/xwiki/xwiki-commons/commit/ced26356e8ee384967b8349b7dbf461166422a64
-https://github.com/xwiki/xwiki-commons/commit/7b9ed5a88b7d2cfe76bb372a0cac1f9553210194
-https://github.com/apache/commons-lang/commit/09ef69c5b51115300da6df43690cd455d83c8027
+https://github.com/apache/pdfbox/commit/a6b3b6c614221e323d4172dd362896c50ffb737a, old commit
+https://github.com/apache/pdfbox/commit/76b74e9dee2239ba0a0ec79e2bebd1d08abaa235, old commit
+https://github.com/xwiki/xwiki-commons/commit/ced26356e8ee384967b8349b7dbf461166422a64, no matched lines
+https://github.com/xwiki/xwiki-commons/commit/7b9ed5a88b7d2cfe76bb372a0cac1f9553210194, old java (maybe 8)
+https://github.com/apache/commons-lang/commit/09ef69c5b51115300da6df43690cd455d83c8027, sahab doesnt generate correct report for left
 https://github.com/apache/commons-lang/commit/3fadfdd69f4682f05563ce53e55743f55813f488, last line of method change
-https://github.com/spullara/mustache.java/commit/88770279e1cd73895cd31dbf96b6ffc022424d3c, old java
-https://github.com/spullara/mustache.java/commit/eca08ca2bd58898310d302e63da185a568aee81a, old java
-https://github.com/khaes-kth/commons-io/commit/db23cdbcf787165df0aec971107f0136d830fcc3
-https://github.com/khaes-kth/commons-io/commit/c01c7519b4e100dde7f15e6a63e1e313cb9eb982
+https://github.com/spullara/mustache.java/commit/88770279e1cd73895cd31dbf96b6ffc022424d3c, old java (maybe 8)
+https://github.com/spullara/mustache.java/commit/eca08ca2bd58898310d302e63da185a568aee81a, old java (maybe 8)
+https://github.com/khaes-kth/commons-io/commit/db23cdbcf787165df0aec971107f0136d830fcc3, done
+https://github.com/khaes-kth/commons-io/commit/c01c7519b4e100dde7f15e6a63e1e313cb9eb982, done
